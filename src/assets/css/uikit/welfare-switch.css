@@ -1,0 +1,41 @@
+/* The switch - the box around the slider */
+.p-inputswitch {
+    display: inline-block;
+    width: 52px;
+    height: 27px;
+    box-shadow: none;
+}
+
+.p-inputswitch.p-focus .p-inputswitch-slider {
+    box-shadow: none;
+}
+
+.p-inputswitch .p-inputswitch-checked {
+    border: 1px solid var(--neutral-color-n-33);
+}
+
+.p-inputswitch .p-inputswitch-slider {
+    background-color: var(--neutral-white);
+    border: 1px solid var(--neutral-color-ncc);
+}
+
+.p-inputswitch.p-inputswitch-checked .p-inputswitch-slider {
+    border: 1px solid var(--neutral-color-n-33);
+}
+
+/* The slider */
+.p-inputswitch.p-inputswitch-checked .p-inputswitch-slider:before {
+    background-color: var(--neutral-color-n-33);
+    -webkit-transition: .4s;
+    left: 7.5px;
+}
+
+.p-inputswitch .p-inputswitch-slider:before {
+    background-color: var(--neutral-color-ncc);
+    -webkit-transition: .4s;
+    height: 18px;
+    width: 18px;
+    top: 13.7px;
+    left:4.3px
+}
+

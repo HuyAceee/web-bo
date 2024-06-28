@@ -1,0 +1,34 @@
+:deep(.wf-product-info-provision-notice-table thead tr th) {
+  height: 42px !important;
+}
+
+:deep(.wf-product-info-provision-notice-table tbody tr td) {
+  height: 134px !important;
+  max-height: 100% !important;
+}
+
+.inp-number {
+  padding: 10px !important;
+}
+
+:deep(.inp-content-des) {
+  box-sizing: border-box;
+  flex-grow: 1;
+  border-left: 0;
+  padding : 0
+}
+
+.action-btn {
+  box-sizing: border-box;
+  width: 110px;
+  border-left: 0;
+}
+
+
+:deep(.p-datatable-table tr td:last-child) {
+  min-width: 100px !important;
+}
+
+:deep(.p-datatable-table tr th:last-child) {
+  min-width: 100px !important;
+}

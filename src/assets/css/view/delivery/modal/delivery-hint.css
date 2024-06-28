@@ -1,0 +1,20 @@
+.wf-info-hint {
+  padding: 15px 10px 15px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--sub-color-line-green);
+  background: var(--sub-color-green);
+  gap: 8px;
+}
+
+.wf_dot {
+  height: var(--d_2);
+  width: var(--d_2);
+  border-radius: 50%;
+}
+
+.wf_rep-notification--content-row {
+  display: flex;
+  flex-direction: row;
+  gap: var(--d_5);
+  align-items: center;
+}

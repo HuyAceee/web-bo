@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Company Management",
+    "visible": true,
+    "contents": [
+      {
+        "title": "Customer Management > Customer Management > Customer's List (BO_O0101_010101)",
+        "description": "/customer/information/list",
+        "link": "/customer/information/list",
+        "history": "0130"
+      },
+      {
+        "title": "Customer Management > Customer Management > Customer Registration (BO_O0103_010101)",
+        "description": "/customer/information/registration",
+        "link": "/customer/information/registration",
+        "history": "0130"
+      },
+      {
+        "title": "Customer Management > Customer Management > Customer Details > Edit Customer Information (BO_O0102_010101)",
+        "description": "/customer/information/edit",
+        "link": "/customer/information/edit?customerKey=10124",
+        "history": "0130"
+      },
+      {
+        "title": "Customer Management > Customer Management > Customer Details > Edit Contract Information (BO_O0102_020101/BO_O0102_020201_P)",
+        "description": "/customer/information/edit",
+        "link": "/customer/information/edit?customerKey=10124&tab=contract",
+        "history": "0130"
+      },
+      {
+        "title": "Customer Management> Customer Search Pop Up (BO_C0604_010101_P)",
+        "description": "/customer/information/search-modal?modal=customer-search-modal",
+        "link": "/customer/information/search-modal?modal=customer-search-modal",
+        "history": "0130"
+      },
+      {
+        "title": "Customer Management> Seller Search Pop Up (BO_C0601_010101_P)",
+        "description": "/customer/information/search-modal?modal=seller-search-modal",
+        "link": "/customer/information/search-modal?modal=seller-search-modal",
+        "history": "0130"
+      }
+    ]
+  }
+]

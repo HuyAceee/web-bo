@@ -1,0 +1,11 @@
+:deep(.wf-note .wf_filter-title) {
+  height: 150px;
+}
+
+:deep(.wf-display-template-management-table .p-datatable-table tr th:last-child) {
+  min-width: 150px !important;
+}
+
+:deep(.wf-display-template-management-table .p-datatable-table tr th:nth-child(5)) {
+  width: unset !important;
+}

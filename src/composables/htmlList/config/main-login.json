@@ -1,0 +1,112 @@
+[
+  {
+    "title": "Main(Login)",
+    "visible": true,
+    "contents": [
+      {
+        "title": "Dashboard",
+        "description": "./dashboard",
+        "link": "/",
+        "history": "1011",
+        "visible": true
+      },
+      {
+        "title": "Full menu",
+        "description": "./dashboard/full-menu",
+        "link": "/",
+        "history": "1013",
+        "visible": true
+      },
+      {
+        "title": "Favorite",
+        "description": "./dashboard/favorite",
+        "link": "/",
+        "history": "1013",
+        "visible": true
+      },
+      {
+        "title": "Login (BO_A0101_010101)",
+        "description": "./login",
+        "link": "auth/login",
+        "history": "1012",
+        "visible": true
+      },
+      {
+        "title": "Auth > User information (BO_A0203_010101)",
+        "description": "./auth/user-information",
+        "link": "./auth/user-information",
+        "history": "1230"
+      },
+      {
+        "title": "Auth > Edit user information (BO_A0203_020101)",
+        "description": "./auth/edit-user-information",
+        "link": "./auth/edit-user-information",
+        "history": "1012",
+        "visible": true
+      },
+      {
+        "title": "Auth > Email authentication",
+        "description": "./auth/email-verification-first-login",
+        "link": "auth/email-verification-first-login",
+        "history": "1011",
+        "visible": true
+      },
+      {
+        "title": "Auth > Email verification",
+        "description": "./auth/email-verification",
+        "link": "auth/email-verification",
+        "history": "1011",
+        "visible": true
+      },
+      {
+        "title": "Auth > Email verification success",
+        "description": "./auth/email-verification-success",
+        "link": "auth/email-verification-success",
+        "history": "1012",
+        "visible": true
+      },
+      {
+        "title": "Auth > Email authentication error",
+        "description": "./auth/email-verification-error",
+        "link": "auth/email-verification-error",
+        "history": "1012",
+        "visible": true
+      },
+      {
+        "title": "Authentication > Change Password (BO_A0103_010101/BO_A0203_030101)",
+        "description": "./auth/change-password",
+        "link": "auth/change-password",
+        "history": "1230",
+        "visible": true
+      },
+      {
+        "title": "Full Menu (BO_A0204_010101_P)",
+        "description": "./menu",
+        "link": "/",
+        "history": "0110",
+        "visible": true
+      },
+      {
+        "title": "Favorite Menu (BO_A0205_010101_P)",
+        "description": "./favorite",
+        "link": "/",
+        "history": "0110",
+        "visible": true
+      },
+      {
+        "title": "Manual (BO_A0206_010101_P)",
+        "description": "./dashboard",
+        "link": "/",
+        "history": "1230",
+        "visible": true
+      },
+      {
+        "title": "Information for person in charge (BO_A0207_010101_P)",
+        "description": "./dashboard",
+        "link": "/",
+        "history": "1230",
+        "visible": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+.wf_bg {
+    background-color: var(--bg-color);
+}
+
+.wf_border {
+    border: var(--d_1) solid var(--bc);
+}
+
+.wf_br {
+    border-radius: var(--br)px;
+}
+
+.wf_h {
+    height: var(--h)px;
+}
+
+.wf_w {
+    width: var(--w)px;
+}
+
+.wf_spacing {
+    letter-spacing: var(--spacing)px;
+}
+
+.wf_color {
+    color: var(--color)
+}

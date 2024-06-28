@@ -1,0 +1,36 @@
+/** common css **/
+@import url('./root.css');
+@import url('./common.css');
+@import url('./spacing.css');
+@import url('./custom.css');
+@import url('./color.css');
+@import url('./globals.css');
+@import url('./layout.css');
+@import url('./size.css');
+@import url('./variables.css');
+
+/** ui-kit css **/
+@import url('./welfare-radio.css');
+@import url('./welfare-checkbox.css');
+@import url('./welfare-select.css');
+@import url('./welfare-pagination.css');
+@import url('./welfare-base-table-pagination.css');
+@import url('./welfare-tree-table-pagination.css');
+@import url('./welfare-tag.css');
+@import url('./welfare-switch.css');
+@import url('./welfare-neutral.css');
+@import url('./welfare-sub-color.css');
+@import url('./welfare-tab.css');
+@import url('./welfare-tab-underline.css');
+@import url('./welfare-swiper.css');
+@import url('./welfare-input.css');
+@import url('./welfare-menu.css');
+@import url('./welfare-text.css');
+@import url('./welfare-modal.css');
+@import url('./welfare-editor.css');
+@import url('./welfare-button.css');
+@import url('./welfare-close-icon.css');
+@import url('./welfare-calendar.css');
+@import url('./welfare-header-tab.css');
+@import url('./welfare-loading.css');
+@import url('./welfare-content-header.css');

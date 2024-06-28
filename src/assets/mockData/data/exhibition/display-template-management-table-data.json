@@ -1,0 +1,16 @@
+{
+  "no": 1,
+  "templateCode": "0000",
+  "templateName": "템플릿 명",
+  "goods": "-",
+  "banner": "-",
+  "productGroup": "-",
+  "specialPrice": "-",
+  "text": "-",
+  "exhibitionStatus": "전시",
+  "appChannel": "전체",
+  "registrant": "회원명(회원코드)",
+  "registrationDate": "2024.01.01 12:45:23",
+  "modifier": "회원명(회원코드)",
+  "modificationDate": "2024.01.01 12:45:23"
+}

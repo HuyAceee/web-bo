@@ -1,0 +1,34 @@
+.wf_container {
+  display: flex;
+  flex-direction: row;
+  padding: var(--d_29) var(--d_48) var(--d_57) var(--d_20);
+  justify-content: flex-start;
+}
+
+.wf_container-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--d_17);
+}
+
+.wf_container-group:first-child {
+  margin-right: var(--d_76);
+}
+
+.wf_container-group:nth-child(2) {
+  margin-right: var(--d_135);
+  transform: translateY(var(--d_-14));
+  gap: var(--d_5);
+}
+
+.wf_container-group:nth-child(3) {
+  gap: var(--d_18);
+}
+
+.wf_date-picker-validation {
+  display: flex;
+  flex-direction: row;
+  gap: var(--d_6);
+  align-items: center;
+  margin-left: var(--d_40);
+}

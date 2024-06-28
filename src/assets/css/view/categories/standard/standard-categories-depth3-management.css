@@ -1,0 +1,12 @@
+.wf-category-menu--header {
+  border-bottom: 3px solid var(--sub-color-line-gray);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.wf-category-form-wrapper {
+  border: 1px solid var(--neutral-color-ncc);
+  border-radius: var(--br_6);
+}
+:deep(.p-datatable-table tr:first-child th:last-child) {
+  min-width: 200px !important;
+}

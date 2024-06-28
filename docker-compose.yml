@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  welfare:
+    build:
+      context: .
+    container_name: welfare-bo
+    ports:
+      - '80:3000'

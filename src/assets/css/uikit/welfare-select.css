@@ -1,0 +1,187 @@
+.p-dropdown {
+  border-radius: var(--br_4);
+  border: var(--d_1) solid var(--neutral-color-ncc);
+  background: var(--neutral-white);
+  width: 100%;
+  height: var(--d_40);
+  outline: 0 !important;
+  box-shadow: none !important;
+  padding: var(--d_10) var(--d_12);
+  transition: all 0.5s ease;
+}
+
+.p-dropdown-label {
+  color: var(--neutral-color-n-33);
+  font-size: var(--body_01);
+  font-style: normal;
+  font-weight: var(--w-400);
+  line-height: 100%; /* 16px */
+  letter-spacing: var(--ls_-1);
+  display: flex;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+.p-inputwrapper-filled .p-dropdown-label {
+  color: var(--neutral-color-n-33) !important;
+}
+
+.p-dropdown-label.p-placeholder {
+  color: var(--neutral-color-n-8-f);
+}
+
+.p-dropdown .p-dropdown-trigger {
+  width: fit-content;
+}
+
+.p-dropdown .p-dropdown-trigger svg {
+  transition: all 0.5s ease;
+}
+
+/* Hover, Active select */
+.p-dropdown:hover,
+.p-dropdown.p-overlay-open {
+  border: var(--d_1) solid var(--neutral-color-n-33);
+}
+
+.p-dropdown:hover .p-dropdown-label,
+.p-dropdown.p-overlay-open .p-dropdown-label {
+  color: var(--neutral-color-n-33);
+}
+
+.p-dropdown:hover .p-dropdown-trigger svg {
+  fill: var(--neutral-color-n-33);
+}
+
+.p-dropdown.p-overlay-open .p-dropdown-trigger svg {
+  fill: var(--neutral-color-n-33);
+  transform: rotate(180deg);
+}
+
+/* Disable select */
+.p-dropdown.p-disabled {
+  background: var(--neutral-color-nf-0);
+  border: var(--d_1) solid var(--neutral-color-ncc);
+}
+
+.p-dropdown.p-disabled .p-dropdown-label {
+  color: var(--neutral-color-ncc);
+}
+
+.p-dropdown.p-disabled .p-dropdown-trigger svg {
+  fill: var(--neutral-color-ncc);
+}
+
+/* Styling Items */
+.p-dropdown-panel {
+  transform: translateY(4px);
+  padding: var(--d_10);
+  padding-bottom: 8px;
+  border-radius: var(--br_6);
+  border: var(--d_1) solid var(--neutral-color-ncc);
+  background: var(--neutral-white);
+}
+
+.p-dropdown-items > * + * {
+  margin-top: 3px;
+}
+
+.p-dropdown-item {
+  padding: var(--d_10);
+  font-style: normal;
+  font-weight: var(--w-400);
+  line-height: 100%; /* 16px */
+  letter-spacing: var(--ls_-1);
+  border-radius: var(--br_2);
+  color: var(--neutral-color-n-8-f);
+  background: transparent;
+}
+
+.p-dropdown-item.p-highlight,
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item:hover {
+  background: var(--neutral-color-nf-0);
+  transition: all 0.5s ease;
+  color: var(--neutral-color-n-33);
+}
+
+/* ======== Small Size ======== */
+.p-dropdown.wf-select-sm {
+  height: var(--d_30);
+}
+
+.p-dropdown.wf-select-sm .p-dropdown-label,
+.p-dropdown-panel.wf-select-sm .p-dropdown-item {
+  font-size: var(--body_03);
+  align-self: center;
+}
+
+.p-dropdown.wf-select-sm .p-dropdown-trigger svg {
+  width: var(--d_14);
+  height: var(--d_14);
+}
+
+/* ======== Having Label ======== */
+.wf-select-label {
+  display: flex;
+}
+
+.wf-select-label-row {
+  flex-direction: row;
+  gap: var(--d_12);
+  align-items: center;
+  height: 100%;
+}
+
+.wf-select-label-col {
+  flex-direction: column;
+  gap: var(--d_12);
+}
+
+.wf-select-label label {
+  font-size: var(--body_01);
+  font-style: normal;
+  font-weight: var(--w-600);
+  line-height: 100%; /* 16px */
+  letter-spacing: var(--ls_-1);
+  color: var(--neutral-color-n-33);
+  min-width: 26px;
+}
+
+.wf-select-label.wf-select-label-sm label {
+  font-size: var(--body_03);
+  min-width: 23px;
+}
+
+/* ======== Big border radus ======== */
+.p-dropdown.wf-select-big-radius {
+  border-radius: var(--d_6);
+}
+
+.p-dropdown-panel.wf-select-big-radius {
+  border-radius: var(--d_6);
+}
+
+/* ======== Style error ======== */
+.p-dropdown.wf-select-error {
+  border-color: var(--sub-color-sub-01);
+}
+
+.p-dropdown-panel .p-dropdown-items-wrapper::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.p-dropdown-panel .p-dropdown-items-wrapper::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 0 var(--neutral-color-primary-0);
+  background-color: var(--bg_e0e4ec);
+}
+
+.p-dropdown-panel .p-dropdown-items-wrapper::-webkit-scrollbar-thumb {
+  background-color: var(--neutral-color-nsp);
+}
+
+/* Required select */
+.wf-select-required .p-placeholder::after {
+  content: '*';
+  color: var(--sub-color-sub-01);
+}

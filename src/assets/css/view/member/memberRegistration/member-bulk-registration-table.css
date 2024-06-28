@@ -1,0 +1,47 @@
+:deep(.p-datatable-table tr th),
+:deep(.p-datatable-table tr td) {
+  min-width: 120px;
+}
+
+:deep(.p-datatable-table .check_box-column) {
+  min-width: 41px !important;
+  max-width: 41px !important;
+}
+
+:deep(.p-datatable-table tr th:nth-child(2)),
+:deep(.p-datatable-table tr td:nth-child(2)) {
+  min-width: 120px;
+  max-width: 120px;
+}
+:deep(.p-datatable-table tr th:nth-child(3)),
+:deep(.p-datatable-table tr td:nth-child(3)),
+:deep(.wf-table-m-w-280) {
+  min-width: 280px !important;
+  max-width: 280px !important;
+}
+:deep(.p-datatable-table tr th:nth-child(4)),
+:deep(.p-datatable-table tr td:nth-child(4)),
+:deep(.p-datatable-table tr th:nth-child(5)),
+:deep(.p-datatable-table tr td:nth-child(5)) {
+  min-width: 220px;
+  max-width: 220px;
+}
+
+:deep(.p-datatable-table tr th:nth-child(13)),
+:deep(.p-datatable-table tr td:nth-child(13)) {
+  min-width: 280px;
+  max-width: 280px;
+}
+:deep(.p-datatable-table tr th:last-child) {
+  min-width: 256px !important;
+  width: 100% !important;
+}
+:deep(.p-datatable-table tr td:last-child) {
+  min-width: 250px !important;
+  width: 100% !important;
+}
+:deep(.p-datatable-table tr td) {
+  overflow: hidden;
+  word-break: break-all;
+  text-overflow: ellipsis;
+}

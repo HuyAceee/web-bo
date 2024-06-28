@@ -1,0 +1,10 @@
+.wf-reason-product-approval-body {
+  height: 318px;
+}
+.wf-reason-product-approval-textarea {
+  width: 100%;
+  --height-input: 200px;
+}
+.wf-reason-product-approval-button {
+  width: 120px;
+}

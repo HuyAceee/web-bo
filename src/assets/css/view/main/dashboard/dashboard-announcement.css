@@ -1,0 +1,29 @@
+
+.wf-wrap-announcement {
+  padding: 30px 50px;
+  padding-right: 53px;
+  padding-bottom: 28px;
+}
+
+.wf-frame1000002109 {
+  width: 56px;
+  height: 26px;
+  padding: 6px 16px;
+  border-radius: 4px;
+  background: var(--neutral-color-n-33);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.wf-frame1000002109 span {
+  color: var(--neutral-white);
+}
+
+.wf-frame1000002110 .wf-text-left {
+  color: var(--neutral-color-n-33);
+  cursor: pointer;
+}
+
+.wf-frame1000002110 .wf-text-right {
+  color: var(--neutral-color-n-52);
+}

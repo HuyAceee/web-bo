@@ -1,0 +1,20 @@
+.wf-category-depth-table {
+  border-top: var(--d_3) solid var(--sub-color-line-gray);
+  margin-top: var(--d_20);
+  padding-top: var(--d_30);
+}
+
+:deep(.wf-form-group-small .wf-product-base-info-search .wf-text-box) {
+  width: var(--d_128) !important;
+}
+
+.wf-register-category-depth {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+:deep(.wf_exhibition-table-container-hotfix) {
+  max-width: calc(100vw - 946px);
+  min-width: 974px;
+} 

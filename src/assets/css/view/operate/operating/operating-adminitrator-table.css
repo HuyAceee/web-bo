@@ -1,0 +1,26 @@
+@import url('@/assets/css/view/common/form-data-table-list.css');
+.wf-height-30 {
+  height: 30px;
+}
+
+.wf-form-filter {
+  padding-top: var(--d_30);
+  border-bottom: none;
+}
+
+.wf-administrator-notes {
+  height: var(--d_153);
+}
+
+.wf-administrator-notes-textarea {
+  --height-input: var(--d_120);
+  flex: 1;
+}
+
+.wf_line {
+  height: var(--d_3);
+  width: 100%;
+  background: var(--sub-color-line-gray);
+  margin-bottom: var(--d_20);
+  margin-top: var(--d_10);
+}

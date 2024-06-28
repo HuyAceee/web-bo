@@ -1,0 +1,140 @@
+[
+  {
+    "title": "Member Management",
+    "visible": true,
+    "contents": [
+      {
+        "title": "MemberList (BO_B0101_010101)",
+        "description": "./member/information/list",
+        "link": "./member/information/list",
+        "history": "1215 0119"
+      },
+      {
+        "title": "Member Detail > Base Info > Consent Marketing (BO_B0101_020101/BO_B0101_020102/BO_B0101_020103_P)",
+        "description": "./member/information/base-information",
+        "link": "/member/information/detail?tab=base-information",
+        "history": "1215 0122"
+      },
+      {
+        "title": "Member Detail > Delivery Address (BO_B0101_020201)",
+        "description": "./member/information/tab=delivery-address",
+        "link": "/member/information/detail?memberKey=1&tab=delivery-address",
+        "history": "1215 0119"
+      },
+      {
+        "title": "Member Detail > Order Detail (BO_B0101_020301)",
+        "description": "./member/information/tab=order-detail",
+        "link": "/member/information/detail?memberKey=1&tab=order-detail",
+        "history": "1215 0119"
+      },
+      {
+        "title": "Member Detail > Coupon Detail (BO_B0101_020401)",
+        "description": "./member/information/tab=coupon-detail",
+        "link": "/member/information/detail?memberKey=1&tab=coupon-detail",
+        "history": "1215 1229 0117"
+      },
+      {
+        "title": "Member Detail > Point Detail (BO_B0101_020402)",
+        "description": "./member/information/tab=point-detail",
+        "link": "/member/information/detail?memberKey=1&tab=point-detail",
+        "history": "1215 1229 0123"
+      },
+      {
+        "title": "Member Detail > Customer Special Info (BO_B0101_020701)",
+        "description": "./member/information/customer-special-information",
+        "link": "/member/information/detail?tab=customer-special-information",
+        "history": "1215 0119"
+      },
+      {
+        "title": "Member Detail > Customer Special Info > Memo Registration (BO_B0101_020703_P)",
+        "description": "./member/information/customer-special-information",
+        "link": "/member/information/detail?tab=customer-special-information",
+        "history": "1215"
+      },
+      {
+        "title": "Member Detail > Customer Special Info > Memo Detail (BO_B0101_020702_P)",
+        "description": "./member/information/customer-special-information",
+        "link": "/member/information/detail?tab=customer-special-information",
+        "history": "1215"
+      },
+      {
+        "title": "Member Detail > Customer Special Info > Black Member Registration (BO_B0101_020704_P)",
+        "description": "./member/information/customer-special-information",
+        "link": "/member/information/detail?tab=customer-special-information",
+        "history": "1215 0119"
+      },
+      {
+        "title": "Member Individual Member Registration (BO_B0103_010101/BO_C0604_010101_P)",
+        "description": "./member/information/individual-member-registration",
+        "link": "/member/information/individual-member-registration",
+        "history": "1215"
+      },
+      {
+        "title": "Member Bulk Registration Succeed (BO_B0102_010101)",
+        "description": "./member/information/bulk-registration?tab=success",
+        "link": "/member/information/bulk-registration",
+        "history": "1215"
+      },
+      {
+        "title": "Member Bulk Registration Failed (BO_B0102_020101)",
+        "description": "./member/information/individual-member-registration",
+        "link": "/member/information/bulk-registration?tab=failed",
+        "history": "1215"
+      },
+      {
+        "title": "Member Bulk Registration Completed Upload (BO_B0102_030101_P/BO_B0102_040101)",
+        "description": "./member/information/individual-member-registration",
+        "link": "/member/information/bulk-registration?tab=success",
+        "history": "1215 0119"
+      },
+      {
+        "title": "Member Point Deduction Management > Profit Point Deduction (BO_B0202_010101)",
+        "description": "./member/welfare-point-deduction-management/profit-point-deduction",
+        "link": "/member/welfare-point-deduction-management/profit-point-deduction",
+        "history": "1228"
+      },
+      {
+        "title": "Member management > Welfare point management > Welfare point usage status > Welfare point member usage list (BO_B0203_010101/BO_B0203_010201_P)",
+        "description": "/member/welfare-point-usage-status/list",
+        "link": "/member/welfare-point-usage-status/list",
+        "history": "1228 0119 0124"
+      },
+      {
+        "title": "Member management > Welfare point management > Welfare point usage status > Welfare point customer usage list (BO_B0203_020101)",
+        "description": "/member/welfare-point-usage-status/customer-list",
+        "link": "/member/welfare-point-usage-status/customer-list",
+        "history": "1228"
+      },
+      {
+        "title": "Member management > Welfare point management > Welfare point allocation management > Welfare point allocation registration (BO_B0201_020101/BO_B0201_020201/BO_B0201_020401_P/ BO_B0201_020501/BO_H0101_020201_P/ BO_B0201_020301)",
+        "description": "/member/point-management/point-allocation-management/allocation-registration",
+        "link": "/member/point-management/point-allocation-management/allocation-registration?customerKey=1",
+        "history": "1228 0119"
+      },
+      {
+        "title": "Member management > Welfare point management > Welfare point allocation management > Welfare point adjustment registration (BO_B0201_030101)",
+        "description": "/member/welfare-point-allocation-management/point-adjustment-registration",
+        "link": "/member/welfare-point-allocation-management/point-adjustment-registration?customerKey=1&pointKey=10",
+        "history": "1228"
+      },
+      {
+        "title": "Member management > Welfare point management > Welfare point allocation management > Welfare point allocation list (member designation) (BO_B0201_010101)",
+        "description": "/member/point-management/point-allocation-management/point-allocation-list",
+        "link": "/member/point-management/point-allocation-management/point-allocation-list",
+        "history": "1228"
+      },
+      {
+        "title": "Member management > Welfare point management > Welfare point deduction management > Welfare point deduction registration (member designation) (member designation) (BO_B0202_020101/BO_B0202_020501/BO_B0202_020201/ BO_B0202_020301/BO_B0202_020401_P)",
+        "description": "/member/welfare-point-deduction-management/registration",
+        "link": "/member/welfare-point-deduction-management/registration?customerKey=1",
+        "history": "1228 0125"
+      },
+      {
+        "title": "Member management > Welfare point management > Welfare point deduction management > Welfare point deduction detail (BO_B0202_010201)",
+        "description": "/member/welfare-point-deduction-management/detail",
+        "link": "/member/welfare-point-deduction-management/detail?customerKey=3&pointKey=512",
+        "history": "0117"
+      }
+    ]
+  }
+]

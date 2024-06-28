@@ -1,0 +1,26 @@
+.view-ticket-img {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 450px;
+  background: var(--neutral-white);
+}
+.wf-p-30-20 {
+  padding: 30px 20px;
+}
+.image-default {
+  background-color: var(--neutral-color-n-33);
+  width: 410px;
+  height: 344px;
+}
+.image-container {
+  max-width: 410px;
+  max-height: 344px;
+  overflow: auto;
+}
+.image-container::-webkit-scrollbar {
+  height: var(--d_6);
+}
+.image-container:has(.image-default) {
+  overflow: hidden;
+}

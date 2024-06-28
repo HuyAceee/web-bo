@@ -1,0 +1,16 @@
+.p-datatable-table tr th[colspan]:not([colspan='1']) {
+  border-bottom: var(--br_1) solid var(--neutral-color-ncc);
+}
+
+:deep(.p-datatable-table tr th.wf_custom-col),
+:deep(.p-datatable-table tr td.wf_custom-col) {
+  padding: 0;
+}
+
+.wf_data-table-border-b {
+  border-bottom: var(--br_1) solid var(--neutral-color-ncc);
+}
+
+.wf_data-table-border-l {
+  border-left: var(--br_1) solid var(--neutral-color-ncc);
+}

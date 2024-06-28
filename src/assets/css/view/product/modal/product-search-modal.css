@@ -1,0 +1,7 @@
+.wrap-input {
+  --height-input: 40px;
+}
+
+.wf-product-search-modal :deep(.p-datatable-tbody) {
+  max-height: calc(44px * 5 + 4px);
+}

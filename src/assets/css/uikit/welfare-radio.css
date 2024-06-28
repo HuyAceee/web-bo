@@ -1,0 +1,95 @@
+/* primevue radiobutton */
+
+.p-radiobutton {
+  display: flex;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: var(--d_24);
+  height: var(--d_24);
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+.p-radiobutton.p-radiobutton-sm {
+  width: var(--d_20);
+  height: var(--d_20);
+}
+
+.p-radiobutton-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  border: var(--d_1) solid var(--neutral-color-ncc);
+  background: var(--neutral-white);
+  /* empty_inner */
+  box-shadow: var(--inset_1);
+  cursor: pointer;
+}
+
+.p-radiobutton-box.p-highlight,
+.p-radiobutton-box.p-radiobutton-box-checked {
+  border: var(--d_1) solid var(--neutral-color-n-33);
+}
+
+.p-radiobutton-box.p-radiobutton-disabled,
+.p-radiobutton-box.p-radiobutton-box-disabled {
+  border: var(--d_1) solid var(--neutral-color-ncc);
+  background: var(--neutral-color-nf-0);
+  cursor: default;
+}
+
+.p-radiobutton-icon {
+  transform: none;
+  visibility: hidden;
+  border-radius: 100%;
+  width: var(--d_14);
+  height: var(--d_14);
+}
+
+.p-radiobutton.p-radiobutton-sm .p-radiobutton-icon {
+  width: var(--d_12);
+  height: var(--d_12);
+}
+
+.p-radiobutton-box.p-highlight .p-radiobutton-icon,
+.p-radiobutton-box.p-radiobutton-box-checked .p-radiobutton-icon {
+  visibility: visible;
+  background: var(--neutral-color-n-33);
+}
+
+.p-radiobutton-box.p-radiobutton-disabled .p-radiobutton-icon,
+.p-radiobutton-box.p-radiobutton-box-disabled .p-radiobutton-icon {
+  background: var(--neutral-color-n-8-f);
+}
+
+.p-radiobutton-container {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+.p-radiobutton-label {
+  padding-left: var(--d_8);
+  padding-right: var(--d_2);  /* prefix label width follow figma */
+  font-size: var(--body_01);
+  font-style: normal;
+  font-weight: var(--w-400);
+  line-height: 100%; /* 16px */
+  letter-spacing: var(--ls_-1);
+  cursor: pointer;
+  color: var(--neutral-color-n-33);
+}
+
+.p-radiobutton-label.p-radiobutton-label-sm {
+  font-size: var(--body_03);
+}
+
+.p-radiobutton-label-disabled {
+  cursor: default;
+}

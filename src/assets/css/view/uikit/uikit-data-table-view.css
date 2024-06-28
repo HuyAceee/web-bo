@@ -1,0 +1,80 @@
+
+.wf-nowrap {
+  white-space: nowrap !important;
+}
+
+.wrap-table {
+  padding: 24px;
+  width: 1448px;
+  min-width: 1448px;
+  max-width: 1448px;
+}
+:deep(.p-datatable-table tr th) {
+  min-width: 120px;
+  max-width: 120px;
+}
+
+:deep(.p-datatable-table tr td) {
+  min-width: 120px;
+  max-width: 120px;
+}
+
+:deep(.p-datatable-table .check_box-column) {
+  min-width: 41px !important;
+  max-width: 41px !important;
+}
+
+:deep(.p-datatable-table .action-column) {
+  min-width: 140px;
+  max-width: 140px;
+}
+
+:deep(.p-datatable-table .code-column) {
+  min-width: 120px !important;
+  max-width: 120px !important;
+}
+
+:deep(.p-datatable-table .name-column) {
+  min-width: 140px !important;
+  max-width: 140px !important;
+}
+
+:deep(.p-datatable-table .batters-column) {
+  min-width: 100px !important;
+  max-width: 100px !important;
+}
+
+:deep(.p-datatable-table .color-column) {
+  min-width: 100px !important;
+  max-width: 100px !important;
+}
+
+:deep(.p-datatable-table .height-column) {
+  min-width: 100px !important;
+  max-width: 100px !important;
+}
+
+:deep(.p-datatable-table .width-column) {
+  min-width: 80px !important;
+  max-width: 80px !important;
+}
+
+:deep(.p-datatable-table .ppu-column) {
+  min-width: 130px !important;
+  max-width: 130px !important;
+}
+
+:deep(.p-datatable-table .topping-column) {
+  min-width: 120px !important;
+  max-width: 120px !important;
+}
+
+:deep(.p-datatable-table .url-column) {
+  min-width: 180px !important;
+  max-width: 180px !important;
+}
+
+:deep(.p-datatable-table .startDate-column) {
+  min-width: 130px !important;
+  max-width: 130px !important;
+}

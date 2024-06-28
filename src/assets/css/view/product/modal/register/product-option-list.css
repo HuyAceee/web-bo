@@ -1,0 +1,23 @@
+.wf-list-option-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--d_6);
+  overflow-y: auto;
+  max-height: calc(5 * var(--d_30) + var(--d_14) + 4 * var(--d_6));
+}
+
+.wf-list-option-row {
+  display: flex;
+  flex-direction: row;
+  column-gap: var(--d_6);
+  width: 100%;
+}
+
+.wf-text-no {
+  width: var(--d_44);
+}
+
+.wf-text-option {
+  flex: 1;
+}

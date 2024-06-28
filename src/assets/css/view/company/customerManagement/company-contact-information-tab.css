@@ -1,0 +1,6 @@
+.wf_label_information {
+  font-size: var(--body_03);
+  font-style: normal;
+  font-weight: var(--w-400);
+  line-height: 100%; /* 0.875rem */
+}

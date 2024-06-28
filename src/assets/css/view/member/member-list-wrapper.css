@@ -1,0 +1,7 @@
+:deep(.wf_member-list-tab-wraper .wf_outline-tab) {
+  font-size: var(--body_01);
+}
+
+:deep(.wf_member-list-tab-wraper .wf_tab-contents) {
+  margin-top: var(--d_26);
+}

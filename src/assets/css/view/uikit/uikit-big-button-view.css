@@ -1,0 +1,17 @@
+.wf_container--big-button{
+  width: 810px;
+  height: 300px;
+  border-radius: var(--d_4);
+}
+.wf_container-row--custom{
+  column-gap: 35px;
+}
+.wf_container-col--gap{
+  gap: 20px;
+}
+.wf_button--ml{
+  margin-left: var(--d_4);
+}
+.wf_container-col--ml{
+  margin-left: var(--d_5);
+}

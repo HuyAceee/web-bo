@@ -1,0 +1,13 @@
+:deep(.wf-product-base-info-search .wf-text-box){
+    width: 100% !important;
+}
+:deep(.wf-complaint-w-input .wf_filter-body){
+    width: 200px !important;
+}
+.complaint-container-form {
+    padding: var(--d_29) var(--d_28) var(--d_28) var(--d_29);
+}
+
+:deep(.wf-product-base-info-search-label .wf-text-box) {
+    width: 180px !important;
+}

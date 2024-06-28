@@ -1,0 +1,26 @@
+.wf-group-input {
+    display: flex;
+    flex-direction: column;
+    gap: var(--d_10);
+}
+
+.wf_authentication-wrapper :deep() .wf_authentication--slot {
+    padding: var(--d_60) var(--d_50);
+}
+
+.wf_authentication-wrapper :deep() .p-inputtext.p-component {
+    height: var(--d_40);
+    padding-left: var(--d_11);
+}
+
+.wf_authentication-wrapper :deep() .p-checkbox-label {
+    padding-top: var(--d_1);
+}
+
+.wf_big-button--default {
+    padding: var(--d_16) var(--d_12) var(--d_14) var(--d_10);
+}
+
+.wf-icon-input-text {
+    right: var(--d_10);
+}

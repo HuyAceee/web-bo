@@ -1,0 +1,94 @@
+.wrap-table {
+    border: 1px solid var(--sub-color-line-gray);
+}
+
+.wrap-table-header {
+    align-items: center;
+}
+
+.wrap-table-header span {
+    color: var(--sub-color-sub-01);
+}
+
+.wrap-table-content {
+    border-top: var(--d_2) solid var(--neutral-color-n-33);
+}
+
+.wrap-table-header.wf-table-row .wrap-table-header_child {
+    letter-spacing: -1px;
+    font-size: 15px;
+    height: var(--d_42);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap-table-header.wf-table-row .wrap-table-header_child > p {
+    padding-right: var(--d_3);
+}
+
+.wf-table-row {
+    width: inherit;
+    color: var(--neutral-color-n-33);
+}
+
+.wf-table-row > *:first-child {
+    width: 80px;
+    min-width: 80px;
+    border-right: 1px solid var(--sub-color-line-gray);
+}
+
+.wf-table-row > *:last-child {
+    min-width: 111px;
+    width: 10%;
+}
+
+.wf-table-row > *:nth-child(2) {
+    min-width: 204px;
+    width: 30%;
+    border-right: 1px solid var(--sub-color-line-gray);
+}
+
+.wf-table-row > *:nth-child(3) {
+    min-width: 1005px;
+    width: 60%;
+    border-right: 1px solid var(--sub-color-line-gray);
+}
+
+.wrap-table-content-set {
+    --height-input: 120px;
+    width: 100%;
+}
+
+.wrap-table-content--element {
+    padding: var(--d_6) var(--d_13) var(--d_6) var(--d_11);
+    border-top: 1px solid var(--sub-color-line-gray);
+}
+
+.wrap-table-content--element > .button-set {
+    width: 40px;
+    text-align: center;
+}
+
+.wrap-table-content_child > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap-table-content--element.action {
+    gap: var(--d_5);
+}
+
+.wrap-table :deep(.wf-text-box .p-inputtext:placeholder-shown),
+:deep(.wf-text-box .p-inputtextarea.p-inputtext:placeholder-shown) {
+    font-size: var(--body_03);
+    font-weight: var(--w-400);
+    line-height: var(--body_03);
+    word-wrap: break-word;
+}
+
+.wrap-table :deep(.wf-text-box-control .p-inputtext.small) {
+    padding: var(--d_8) var(--d_11);
+}

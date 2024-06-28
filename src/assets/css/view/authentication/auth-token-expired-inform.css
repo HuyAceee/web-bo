@@ -1,0 +1,37 @@
+.wf_authentication-wrapper :deep() .wf_authentication--slot {
+  padding: var(--d_60) var(--d_50);
+}
+.wf_authentication-wrapper :deep() .wf_authentication--slot > *:last-child {
+  margin-top: var(--d_30);
+}
+
+.wf_authentication-wrapper :deep() .wf_authenticate--contact > *:first-child {
+  color: var(--neutral-color-n-52);
+}
+
+.wf_authentication-wrapper :deep() .wf_box-authentication-image--danger {
+  margin: 0;
+}
+
+.wf_authentication-wrapper :deep() .wf_authentication-box-wrapper {
+  height: 133px;
+  justify-content: center;
+  gap: var(--d_9);
+}
+
+.wf_authentication-wrapper :deep() .wf_authentication-box-wrapper .wf_box-authentication-title {
+  padding: var(--d_4) 0 0;
+}
+
+.wf_authentication-wrapper :deep() .wf_authentication-box-wrapper .wf_box-authentication-message {
+  padding: 0 var(--d_4) var(--d_2) 0;
+  color: var(--neutral-color-n-33);
+}
+
+.wf_big-button--default {
+  padding: var(--d_16) var(--d_12) var(--d_14) var(--d_10);
+}
+
+.wf_link {
+  text-decoration: none;
+}

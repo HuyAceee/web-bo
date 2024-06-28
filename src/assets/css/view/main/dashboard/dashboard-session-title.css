@@ -1,0 +1,11 @@
+
+.wf-main-session-title .wf-title {
+  color: var(--neutral-color-n-33);
+}
+
+.wf-main-session-title .wf-sub-title {
+  color: var(--neutral-color-n-52);
+  margin-top: -3px;
+  margin-left: 4px;
+  letter-spacing: 0;
+}

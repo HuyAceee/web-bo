@@ -1,0 +1,23 @@
+{
+    "id": 1,
+    "number": 1,
+    "code": "0000",
+    "type": "문자",
+    "pattern": "회원",
+    "isUse": "사용",
+    "templateTitle": "제목 출력",
+    "templateContent": "첫 줄 내용 미리보기 영역초과시…처리",
+    "callNumberOrChannel": "080-000-0000",
+    "numShipment": "N,NNN",
+    "shippingStatusSuccess": "N,NNN",
+    "shippingStatusFailure": "N,NNN",
+    "shippingType": "자동",
+    "appPushSend": "Y",
+    "shippingMethod": "즉시발송",
+    "deliveryResult": "",
+    "deliveryDateTime": "YYYY.MM.DD HH:MM:SS",
+    "registrationDateTime": "YYYY.MM.DD HH:MM:SS",
+    "registrant": "관리자명(회원코드)",
+    "modificationDate": " YYYY.MM.DD HH:MM:SS",
+    "modifier": "SYSTEM(admin)"
+}

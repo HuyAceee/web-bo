@@ -1,0 +1,6 @@
+.wf-close-icon--color {
+  color: var(--neutral-color-n-52);
+}
+.wf-close-icon--color:hover {
+  color: var(--neutral-color-n-33);
+}

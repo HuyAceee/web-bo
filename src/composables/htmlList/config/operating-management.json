@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Operating Management",
+    "visible": true,
+    "contents": [
+      {
+        "title": "Operation > Site management > Site menu management (BO_M0101_010101/BO_M0101_020101/BO_M0101_030101/BO_M0101_040101)",
+        "description": "/operation/site/site-menu",
+        "link": "/operation/site/site-menu",
+        "history": "0122 0125",
+        "visible": true
+      },
+      {
+        "title": "Operation > Administrator Management > Administrator Registration (BO_M0202_010101)",
+        "description": "/operation/bo-administrator/administrator-registration",
+        "link": "/operation/bo-administrator/administrator-registration",
+        "history": "0126",
+        "visible": true
+      },
+      {
+        "title": "Operation > Administrator Management > Permission Group Registration (BO_M0204_010101)",
+        "description": "/operation/bo-administrator/permission-group-registration",
+        "link": "/operation/bo-administrator/permission-group-registration",
+        "history": "0122",
+        "visible": true
+      },
+      {
+        "title": "Operation > Administrator Management > Administrator List (BO_M0201_010101)",
+        "description": "/operation/bo-administrator/administrator-list",
+        "link": "/operation/bo-administrator/administrator-list",
+        "history": "0122",
+        "visible": true
+      },
+      {
+        "title": "Operation > Website Management > Footer Information Management (BO_M0102_010101, BO_C0607_010101_P)",
+        "description": "/operation/site/footer-information",
+        "link": "/operation/site/footer-information",
+        "history": "0122",
+        "visible": true
+      },
+      {
+        "title": "Operation > BO Administrator Management > Permission Group List (BO_M0203_010101)",
+        "description": "/operation/bo-administrator/permission-group-list",
+        "link": "/operation/bo-administrator/permission-group-list",
+        "history": "0122",
+        "visible": true
+      }
+    ]
+  }
+]

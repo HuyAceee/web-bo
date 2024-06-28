@@ -1,0 +1,17 @@
+.wf-product-title {
+  display: flex;
+  align-items: start;
+  padding-bottom: var(--d_10);
+  border-bottom: solid 3px var(--sub-color-bg-gray);
+  color: var(--neutral-color-n-33);
+  font-size: var(--d_18);
+  font-style: normal;
+  font-weight: var(--w-600);
+  line-height: 100%; /* var(--d_18) */
+  letter-spacing: var(--ls_1);
+  border-color: var(--sub-color-line-gray);
+}
+
+.wf-product-title .wf-product-title-required {
+  color: var(--sub-color-sub-01);
+} 

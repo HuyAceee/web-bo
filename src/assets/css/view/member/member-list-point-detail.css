@@ -1,0 +1,3 @@
+:deep(.p-datatable-tbody) {
+    max-height: calc(10 * 44px - 1px)
+}

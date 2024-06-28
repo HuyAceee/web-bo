@@ -1,0 +1,46 @@
+.modal-error-result-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 800px;
+  background: var(--neutral-white);
+}
+
+.modal-error-result-info-hint {
+  padding: 16px 10px 14px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--sub-color-line-green);
+  background: var(--sub-color-green);
+  gap: 8px;
+}
+
+.wf_dot {
+  height: var(--d_2);
+  width: var(--d_2);
+  border-radius: 50%;
+}
+
+.wf_rep-notification--content-row {
+  display: flex;
+  flex-direction: row;
+  gap: var(--d_5);
+  align-items: center;
+}
+
+:deep(.error-content) {
+  padding: 14px 12px;
+}
+
+:deep(.wf_grid-cols-form) {
+  grid-template-columns: 150px 1fr;
+}
+
+:deep(.custom-form) {
+  padding: 14px 12px;
+  overflow: auto;
+  max-height: 79px;
+}
+
+:deep(.wf-pd-14-12) {
+  padding: 14px 12px !important;
+}

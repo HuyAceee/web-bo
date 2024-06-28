@@ -1,0 +1,16 @@
+{
+  "id": 0,
+  "code": "00000000",
+  "name": "상품유형 상품유형",
+  "classification": "배송형",
+  "type": "일반",
+  "price": "100000",
+  "salesStatus": "판매중",
+  "approvalStatus": "승인완료",
+  "md": "MD명(회원코드)",
+  "registrant": "관리자명(회원코드)",
+  "registrationDate": "2022.08.22",
+  "modifier": "관리자명(회원코드)",
+  "modificationDate": "2022.08.22",
+  "isSelected": false
+}

@@ -1,0 +1,23 @@
+:deep(.p-datatable-tbody button) {
+  height: var(--d_30);
+}
+:deep(.p-datatable-tbody tr td) {
+  height: var(--d_42);
+  width: var(--d_150);
+  min-width: var(--d_150);
+  max-width: var(--d_150);
+}
+:deep(.p-datatable-thead tr th) {
+  width: var(--d_150);
+  min-width: var(--d_150);
+  max-width: var(--d_150);
+}
+:deep(.p-datatable-thead tr th:last-child) {
+  width: 100%;
+}
+:deep(.p-datatable-tbody tr td:last-child) {
+  width: 100%;
+}
+:deep(.p-datatable-tbody) {
+  min-height: var(--d_42);
+}

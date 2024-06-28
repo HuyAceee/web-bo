@@ -1,0 +1,37 @@
+.wf-header-slider  {
+  padding: 20px;
+  height: 96px;
+}
+
+.wf-dashboard-amount-order-item {
+  padding-bottom: 22px;
+  position: relative;
+  width: 100%;
+  min-width: 100%;
+}
+
+.wf-dashboard-amount-order-item .wf-title {
+  color: var(--neutral-color-n-33);
+}
+
+.wf-dashboard-amount-order-item .wf-number {
+  color: var(--sub-color-sub-02);
+  text-align: center;
+}
+
+.wf-frame1000002079 {
+  padding: 27px 10px;
+}
+
+.wf-frame1000002079 .wf-item {
+  max-width: 106px;
+  height: 40px;
+}
+
+.wf-frame1000002079 .wf-item .wf-title {
+  color: var(--neutral-color-n-8-f);
+}
+
+.wf-frame1000002079 .wf-item .wf-number {
+  color: var(--neutral-color-n-52);
+}

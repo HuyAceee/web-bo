@@ -1,0 +1,17 @@
+{
+  "id": "1",
+  "memberShipCode": "",
+  "name": "김메양",
+  "email": "megazone@mz.co.kr",
+  "phone": "010-1234-1234",
+  "gender": "여자",
+  "jobNumber": "123456",
+  "dateOfBirth": "1992-12-12",
+  "rank": "과장",
+  "employeeStatus": "재직",
+  "accountStatus": "0000",
+  "customerCompanyCode": 123,
+  "customer": "㈜기가존 ",
+  "address": "서울 강남구 논현로85길 46",
+  "memberShipLevel": "블랙"
+}

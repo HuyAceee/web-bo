@@ -1,0 +1,15 @@
+{
+  "history": {
+    "id": 0,
+    "productName": "*유정임 열무김치 3kg ",
+    "quantity": "999,999,999 개",
+    "productValue": "999,999,9000 원"
+  },
+  "payment": {
+    "id": 0,
+    "seller": "(주)아이홈푸드",
+    "franchisee": "메가존디지털 주식회사",
+    "amount": "999,999,999 원",
+    "proof": "비대상"
+  }
+}

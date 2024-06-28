@@ -1,0 +1,84 @@
+:deep(.p-datatable-table tr th) {
+  min-width: 120px;
+  max-width: 120px;
+}
+
+:deep(.p-datatable-table tr td) {
+  min-width: 120px;
+  max-width: 120px;
+}
+
+:deep(.p-datatable-table .check_box-column) {
+  min-width: 41px !important;
+  max-width: 41px !important;
+}
+
+:deep(.p-datatable-table .action-column) {
+  min-width: 140px;
+  max-width: 140px;
+}
+
+:deep(.p-datatable-table .id-column) {
+  min-width: 80px !important;
+  max-width: 80px !important;
+}
+
+:deep(.p-datatable-table .code-column) {
+  min-width: 120px !important;
+  max-width: 120px !important;
+}
+
+:deep(.p-datatable-table .name-column) {
+  min-width: 140px !important;
+  max-width: 140px !important;
+}
+
+:deep(.p-datatable-table .classification-column) {
+  min-width: 100px !important;
+  max-width: 100px !important;
+}
+
+:deep(.p-datatable-table .type-column) {
+  min-width: 100px !important;
+  max-width: 100px !important;
+}
+
+:deep(.p-datatable-table .price-column) {
+  min-width: 100px !important;
+  max-width: 100px !important;
+}
+
+:deep(.p-datatable-table .salesSatus-column) {
+  min-width: 80px !important;
+  max-width: 80px !important;
+}
+
+:deep(.p-datatable-table .approvalStatus-column) {
+  min-width: 130px !important;
+  max-width: 130px !important;
+}
+
+:deep(.p-datatable-table .md-column) {
+  min-width: 120px !important;
+  max-width: 120px !important;
+}
+
+:deep(.p-datatable-table .registrant-column) {
+  min-width: 180px !important;
+  max-width: 180px !important;
+}
+
+:deep(.p-datatable-table .date-column) {
+  min-width: 130px !important;
+  max-width: 130px !important;
+}
+
+:deep(.p-datatable-table .modifier-column) {
+  min-width: 180px !important;
+  max-width: 180px !important;
+}
+
+:deep(.p-datatable-tbody) {
+  max-height: calc(44px * 5 + 4px);
+}
+

@@ -1,0 +1,32 @@
+.wf-company-review-contact-modal {
+  width: 800px;
+}
+.wf-company-group-form {
+  border-radius: 6px;
+  border: 1px solid var(--neutral-color-ncc);
+}
+
+.wf-company-file-ticket {
+  border-radius: 4px;
+  padding-top: 4px;
+  padding-bottom: 3px;
+  border: 1px solid var(--neutral-color-n-33);
+  padding-right: 4px;
+}
+:deep(.wf_filter-body) {
+  padding-top: 5px;
+  padding-bottom: 7px;
+}
+
+.wf_block {
+  display: block;
+}
+
+:deep(.wf-company-group-settle .wf_filter-body) {
+  padding-right: 4px;
+  padding-left: 11px;
+}
+
+.wf_w-input--180 {
+  --width-input: 180px;
+}

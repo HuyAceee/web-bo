@@ -1,0 +1,28 @@
+.member-request-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 1200px;
+  background: var(--neutral-white);
+}
+
+:deep(.p-datatable-table tr td) {
+  height: var(--d_42);
+}
+
+:deep(.wf-member-request-modal-table .p-datatable-table tr:nth-child(2) th:last-child) {
+  border-right: 1px solid var(--neutral-color-ncc);
+}
+
+.wf_search-table-member :deep(.p-datatable-thead tr:first-child th:first-child) {
+  border-bottom: var(--br_2) solid var(--neutral-color-n-33);
+}
+
+:deep(.p-datatable-table .wf-company-address) {
+  min-width: 200px !important;
+}
+
+:deep(.p-datatable-tbody) {
+  max-height: calc(5 * 45px - 2px);
+  min-height: var(--d_42);
+}

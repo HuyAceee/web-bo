@@ -1,0 +1,32 @@
+.wf-dashboard-amount-order {
+  min-width: 530px;
+  height: 385px;
+  flex: 1;
+}
+
+.wf-dashboard-amount-order-content .wf-arrow {
+  position: absolute;
+  top: 27px;
+  left: 0;
+  width: 36.284px;
+  height: 36px;
+  flex-shrink: 0;
+  background: var(--neutral-color-n-8-f);
+  border-radius: 100%;
+  cursor: pointer;
+  user-select: none;
+}
+
+.wf-dashboard-amount-order-content .wf-arrow.wf-disable {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.wf-dashboard-amount-order-content .wf-arrow.wf-arrow-left {
+  left: 1px;
+}
+
+.wf-dashboard-amount-order-content .wf-arrow.wf-arrow-right {
+  right: 3px;
+  left: initial;
+}

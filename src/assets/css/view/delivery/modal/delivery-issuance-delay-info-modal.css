@@ -1,0 +1,49 @@
+.issuance-delay-info-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 1200px;
+  background: var(--neutral-white);
+}
+
+.wf-h-151 {
+  height: 151px;
+}
+
+.wf-introduction {
+  --height-input: 122px;
+  --width-input: 986px;
+}
+
+:deep(.wf-w-986) {
+  width: 986px;
+}
+
+:deep(.wf-pd-unset) {
+  padding: unset;
+}
+
+:deep(.wf-introduction textarea::placeholder) {
+  font-size: 14px;
+}
+
+:deep(.wf-text-box-message.left) {
+  color: var(--sub-color-sub-01);
+}
+
+:deep(.p-datatable-tbody) {
+  max-height: calc(5 * 45px - 2px);
+  min-height: var(--d_42);
+}
+
+:deep(td:has(.column-disable-bg)) {
+  background-color: var(--neutral-color-nf-0) !important;
+  border: var(--d_1) solid var(--neutral-color-ncc);
+  color: var(--neutral-color-ncc);
+}
+
+:deep(tr:has(.column-disable-bg) > td) {
+  background-color: var(--neutral-color-nf-0) !important;
+  border: var(--d_1) solid var(--neutral-color-ncc);
+  color: var(--neutral-color-ncc);
+}

@@ -1,0 +1,28 @@
+.order-search-product {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 1200px;
+  background: var(--neutral-white);
+}
+
+:deep(.p-datatable-table tr td) {
+  width: 100%;
+}
+
+:deep(.wf-gap-6) {
+  gap: 6px;
+}
+
+.wf-gap-4 {
+  gap: 4px;
+}
+
+:deep(.wf_m-w-160) {
+  min-width: 160px !important;
+}
+
+:deep(.p-datatable-tbody) {
+  max-height: calc(5 * 45px - 2px);
+  min-height: var(--d_42);
+}

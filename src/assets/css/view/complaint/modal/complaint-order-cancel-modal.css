@@ -1,0 +1,69 @@
+@import url('@/assets/css/view/member/member-list.css');
+
+.wf-modal-order-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 1200px;
+  background: var(--neutral-white);
+}
+
+.wf_br-b {
+  border-bottom: 1px solid var(--neutral-color-ncc);
+}
+
+.wf_body {
+  padding: var(--d_20);
+  padding-right: var(--d_14);
+  width: 100%;
+  max-height: 800px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.input-textarea-h {
+  --height-input: 120px;
+  --width-input: 100%;
+  flex: 1;
+}
+
+:deep(.input-textarea-h textarea) {
+  height: 120px !important
+}
+
+.pl-button-5 {
+  padding-left: var(--d_5) !important
+}
+
+.wf-pr-item-text-area {
+  padding: 0 6px;
+}
+
+:deep(.wf-text-box-control .wf-text-box-message.left) {
+  text-align: left;
+  color: var(--sub-color-sub-01);
+}
+
+.wf-w-1-4 {
+  width: 25% !important;
+}
+
+.wf-w-1-2 {
+  width: 50% !important;
+}
+
+:deep(.p-datatable-table tr:nth-child(1) th:nth-child(2)) {
+  border-bottom: 2px solid var(--neutral-color-primary-0);
+}
+
+:deep(.form-group-padding > .wf_filter-body) {
+  padding: 12px 12px;
+}
+
+:deep(.wf_h-unset) {
+  height: unset !important;
+}
+
+
+
+

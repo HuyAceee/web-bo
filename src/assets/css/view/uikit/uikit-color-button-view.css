@@ -1,0 +1,12 @@
+.wf_container--color-button {
+  width: 519px;
+  height: 245px;
+  border-radius: var(--d_4);
+  padding: var(--d_19);
+}
+.wf_container-col--custom {
+  row-gap: var(--d_22);
+}
+.wf_container-row--custom {
+  column-gap: var(--d_19);
+}

@@ -1,0 +1,130 @@
+.wf-mall :deep(.p-datatable-table tr th),
+.wf-mall :deep(.p-datatable-table tr td) {
+  /* 62px = 30px*2 (padding-horizontal) + 1px*2 (border-horizontal) */
+  min-width: calc(calc(100vw - 62px - var(--width_sidebar) - var(--width_navigation)) / 3) !important;
+  transition: 0.4s;
+}
+
+#wf-content.wf-navigation .wf-mall :deep(.p-datatable-table tr th),
+#wf-content.wf-navigation .wf-mall :deep(.p-datatable-table tr td) {
+  min-width: calc(calc(100vw - 62px - var(--width_sidebar)) / 3) !important;
+  transition: 0.4s;
+}
+
+:deep(.p-datatable-table tbody) {
+  overflow-x: hidden;
+}
+
+.wf-mall-in-mall :deep(.p-datatable-table tr th),
+.wf-mall-in-mall :deep(.p-datatable-table tr td) {
+  /* 62px = 30px*2 (padding-horizontal) + 1px*2 (border-horizontal) */
+  min-width: calc(calc(100vw - 62px - var(--width_sidebar) - var(--width_navigation)) / 4) !important;
+  transition: 0.4s;
+}
+
+#wf-content.wf-navigation .wf-mall-in-mall :deep(.p-datatable-table tr th),
+#wf-content.wf-navigation .wf-mall-in-mall :deep(.p-datatable-table tr td) {
+  min-width: calc(calc(100vw - 62px - var(--width_sidebar)) / 4) !important;
+  transition: 0.4s;
+}
+
+:deep(.p-datatable-wrapper) {
+  margin-bottom: 0;
+  margin-top: -16px;
+}
+
+.wf-mall {
+  margin-bottom: 16px;
+}
+
+.p-datatable-modal .p-datatable-tbody {
+  max-height: calc(5 * 44px);
+}
+
+.p-datatable-modal .p-datatable {
+  margin-top: -4px;
+}
+
+.p-datatable-modal .p-datatable-wrapper {
+  margin-bottom: 12px;
+}
+.wf-register-category-depth-table {
+  margin-top: var(--d_-6);
+}
+
+:deep(tr td) {
+  padding: 0 var(--d_10);
+  height: var(--d_44);
+  max-height: var(--d_44);
+}
+:deep(tr th) {
+  padding: 0 var(--d_10);
+  height: var(--d_45);
+  max-height: var(--d_45);
+}
+
+:deep(table) {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+:deep(td) {
+  border: var(--br_1) solid var(--neutral-color-ncc);
+  border-style: none solid solid none;
+}
+/* :deep(th) {
+  border: var(--br_1) solid var(--neutral-color-ncc);
+  border-style: solid solid solid none;
+} */
+
+:deep(tr:first-child th) {
+  border-bottom: var(--br_2) solid var(--neutral-color-n-33);
+}
+
+:deep(tr:first-child th:first-child) {
+  border-top-left-radius: 6px;
+  border-left-style: solid;
+}
+:deep(tr:first-child th:last-child) {
+  border-top-right-radius: 6px;
+}
+
+:deep(tr:last-child td:first-child) {
+  border-bottom-left-radius: 6px;
+}
+:deep(tr:last-child td:last-child) {
+  border-bottom-right-radius: 6px;
+}
+
+:deep(tr:first-child td) {
+  border-top-style: solid;
+}
+:deep(tr td:first-child) {
+  border-left-style: solid;
+}
+
+:deep(.p-treetable-tbody) {
+  border-radius: 6px;
+  font-size: var(--body_03);
+  letter-spacing: -1px;
+}
+:deep(.p-treetable-thead) {
+  border-radius: 6px;
+}
+:deep(.p-treetable-thead > tr > th) {
+  text-align: center;
+  justify-content: center;
+  font-size: var(--body_02);
+  letter-spacing: -1px;
+}
+:deep(.wf-data-table-empty-data) {
+  font-size: var(--body_03);
+  font-style: normal;
+  font-weight: var(--w-600);
+  line-height: 100%;
+  letter-spacing: var(--ls_-1);
+  text-align: center;
+}
+:deep(.p-treetable-toggler) {
+  display: none;
+}

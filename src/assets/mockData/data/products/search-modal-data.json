@@ -1,0 +1,13 @@
+{
+  "id": "1",
+  "code": "CS12",
+  "name": "할인",
+  "status": "활성",
+  "registrationCode": "123-12-1222",
+  "companyRegistrationCode": "123-123-11",
+  "contractStatus": "적용 불가",
+  "startContractDate": "2023.06.01",
+  "endContractDate": "2024.06.01",
+  "registrationDate": "2024.06.01",
+  "isRowSelected": false
+}

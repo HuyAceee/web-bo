@@ -1,0 +1,43 @@
+.wf-product-base-tag-wrap {
+  column-gap: 9px;
+  row-gap: 5px;
+}
+
+.wf-wrap-textarea-full {
+  --height-input: var(--d_120);
+  flex: 1;
+}
+
+.wf-product-base-info-search {
+  width: auto !important;
+}
+
+.wf-product-base-info-search .wf-text-box {
+  width: 180px !important;
+}
+
+.text-area-h-120 Textarea {
+  height: 120px !important;
+  padding: 7px 11px !important;
+  line-height: 135% !important;
+  font-size: 14px !important;
+}
+
+.text-input-center input {
+  text-align: center;
+}
+
+.text-input-right input {
+  text-align: right;
+  letter-spacing: 2px !important;
+}
+
+.text-input-number-h-30 input {
+  font-size: var(--body_03) !important;
+  padding: var(--d_8) var(--d_12) !important;
+  --height-input: var(--d_30);
+}
+
+.w-input-180 input {
+  --width-input:  var(--d_180);
+}

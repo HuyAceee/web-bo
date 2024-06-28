@@ -1,0 +1,26 @@
+.wf-register-category-depth--container {
+  display: flex;
+  flex-direction: row;
+  gap: var(--d_20);
+}
+
+.wf-register-category-depth {
+  flex: 1;
+}
+
+.wf-category-depth--header {
+  border-bottom: 3px solid var(--sub-color-line-gray);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.wf-register-category-depth-table {
+  margin-top: var(--d_-6);
+}
+
+.wf-register-category-depth-actions {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}

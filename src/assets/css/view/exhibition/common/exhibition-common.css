@@ -1,0 +1,14 @@
+:deep(.wf_exhibition-table-container-hotfix) {
+  max-width: calc(100vw - 946px);
+  min-width: 974px;
+} 
+
+:deep(.wf_exhibition-tag-container) {
+  padding: 8px 6px;
+  border: 1px solid var(--neutral-color-ncc);
+  border-radius: 4px;
+  max-width: 984px;
+  overflow: hidden;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}

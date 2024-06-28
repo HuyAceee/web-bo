@@ -1,0 +1,44 @@
+export const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+export const emailRegex2 = /^[a-zA-Z0-9]+@[a-zA-Z]+\.(com|co\.[a-zA-Z]+)$/
+export const passwordRegex =
+  /^(?=.*[a-zA-Z_.-])(?=.*\d)(?=.*[!@#$%^&*()_+\-=[\]{};':"\\|,.<>/?\\.])[A-Za-z\d!@#$%^&*()_+\-=[\]{};':"\\|,.<>/?\\._.-]+$/
+export const numberFormatRegex = /(\d)(?=(\d{3})+(?!\d))/g
+export const phoneFormatRegex = /(\d)(?=(\d{4})+(?!\d))/g
+export const numberRegex = /^[0-9]$/i
+export const strippedHtmlEditorRegex = /(<([^>]+)>)/gi
+export const stringFormatNumber = /\D/g
+export const phoneWithCharacterRegex = /^[0-9-]+$/
+export const formatPhoneNumber = /[^0-9]/g
+export const bnameRegex = /[동|로|가]$/
+export const spaceMatchRegex = /\s+/g
+export const emailRegisterRegex = /^\s*\S+@[A-Za-z]+(.[A-Za-z]+)+\s*$/
+export const emailRegisterMemberRegex = /^\s*([^@\s]){5,25}@[A-Za-z]+(\.[A-Za-z]+)*\s*$/
+export const phoneNumberRegex = /^\d(-?\d){10}$/
+export const YYYYMMDD_Regex = /^(19|20)\d{2}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])$/
+export const hyphenRegex = /-/g
+export const dayFormatRegex = /^(\d{4})(\d{2})(\d{2})$/
+export const dayGroupFormatWithHyphen = '$1-$2-$3'
+export const atSplitString = '@'
+export const integerRegex = /^\d+$/
+export const lengthTextRegex = /%[89ABab]/g
+export const replaceDashRegex = /-/g
+export const editorDataSourceRegex = /src="data:[\S]*"/g
+export const editorParseDataRegex = /data:(.+);base64[\S]*/
+export const editorParseBase64SrcImgRegex = /^src="data:(.*?);base64,(.*)"$/
+export const matchSequenceStringNumberRegex = /\d+/
+export const regexReplaceWhiteSpace = / /g
+export const alphaNumericRegex = /[^a-zA-Z0-9]/g
+export const alphaBetIDRegex = /^[A-Za-z_]+$/
+export const alphaBetIDRegex2 = /^[a-zA-Z0-9].*[a-zA-Z0-9]?$/
+export const mailOrderFormatRegex = /^(\d{4})([a-zA-Z]{4})(\d{4})$/
+export const noEndHyphen = /^(?!.*-$)[\s\S]*$/
+export const removeUnmatchNumbersAndHyphens = /[^0-9-]/g
+export const noStartHyphenNoMoreThan2ConsecutiveHyphen = /^(?!-)(?!.*--)[\w가-힣-]*$/
+export const allowOnlyOneMostHyphen = /-{2,}/g
+export const removeStartHyphen = /^-+/g
+export const removeEndHyphen = /-$/
+export const typeInNumbersHyphensRegex = /^[0-9-]*$/
+export const typeInNumbersKoreansHyphensRegex = /^[가-힣0-9-]*$/
+export const removeUnmatchNumbersKoreansHyphens = /[^0-9가-힣-]/g
+export const phoneDisplayFormatRegex = /^(\d{3})(\d{4})(\d{4}).*/
+export const regexIndexArrayForm = /^data.?(\d).+/

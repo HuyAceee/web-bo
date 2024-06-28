@@ -1,0 +1,71 @@
+[
+  {
+    "title": "Delivery Management",
+    "visible": true,
+    "contents": [
+      {
+        "title": "Order/Delivery Management>Ticket Product Order Management>Total Order Status (BO_E0201_010101/ BO_E0207_030101_P/BO_E0207_080101_P/BO_E0207_070101/BO_E0207_010101_P/BO_E0208_140101_P \n /BO_E0208_140201_P/BO_E0208_140301_P/BO_E0207_050101_P)",
+        "description": "/delivery/ticket-product-order-management/list-order-status",
+        "link": "/delivery/ticket-product-order-management/list-order-status",
+        "history": "1220 0123",
+        "visible": true
+      },
+      {
+        "title": "Order/Delivery Management>Ticket Product Order Management>Order Status by Product (BO_E0202_010101/BO_E0207_090101_P/BO_E0207_100101_P/BO_E0207_020101_P/BO_E0207_040101_P)",
+        "description": "/delivery/ticket-product-order-management/order-status-product",
+        "link": "/delivery/ticket-product-order-management/order-status-product",
+        "history": "1220",
+        "visible": true
+      },
+      {
+        "title": "Order/Delivery Management>Ticket Product Order Management>Ticket Issuance List (BO_E0204_010101)",
+        "description": "/delivery/ticket-product-order-management/ticket-list",
+        "link": "/delivery/ticket-product-order-management/ticket-list",
+        "history": "1220",
+        "visible": true
+      },
+      {
+        "title": "Order/Delivery Management>Ticket Product Order Management>Purchase Confirmation List (BO_E0206_010101)",
+        "description": "/delivery/ticket-product-order-management/purchase-confirm-list",
+        "link": "/delivery/ticket-product-order-management/purchase-confirm-list",
+        "history": "1220",
+        "visible": true
+      },
+      {
+        "title": "Order/Delivery Management>(Common) Failure Result Information Pop-up (BO_E0208_120101_P)",
+        "description": "/delivery/ticket-product-order-management/list-order-status?modal=failure-result-info-modal",
+        "link": "/delivery/ticket-product-order-management/list-order-status?modal=failure-result-info-modal",
+        "history": "1220",
+        "visible": true
+      },
+      {
+        "title": "Order/Delivery Management>(Common) Cancellation Request>Cancellation Fee Change Popup (BO_E0207_110101_P)",
+        "description": "/delivery/ticket-product-order-management/list-order-status?modal=cancellation-fee-change-modal",
+        "link": "/delivery/ticket-product-order-management/list-order-status?modal=cancellation-fee-change-modal",
+        "history": "1220",
+        "visible": true
+      },
+      {
+        "title": "Order/Delivery Management>(Common) Issuance Delay Information Detailed Popup (BO_E0203_040201_P)",
+        "description": "/delivery/ticket-product-order-management/list-order-status?modal=issuance-delay-info-detail",
+        "link": "/delivery/ticket-product-order-management/list-order-status?modal=issuance-delay-info-detail",
+        "history": "1226",
+        "visible": true
+      },
+      {
+        "title": "Order/Delivery Management>Ticket Product Order Management>Order Details (BO_E0203_010101,BO_E0203_020201_P,BO_E0203_030101_P,BO_E0203_040101_P,BO_E0203_020101_P)",
+        "description": "/delivery/ticket-product-order-management/order-detail",
+        "link": "/delivery/ticket-product-order-management/order-detail",
+        "history": "1226 0123",
+        "visible": true
+      },
+      {
+        "title": "Order/Delivery Management>Ticket Product Order Management>Total Order Status>Ticket Product Detail Popup>Coupon image preview popup (BO_K0501_010101_P)",
+        "description": "/delivery/ticket-product-order-management/list-order-status?modal=coupon-image-preview-popup",
+        "link": "/delivery/ticket-product-order-management/list-order-status?modal=coupon-image-preview-popup",
+        "history": "0116",
+        "visible": true
+      }
+    ]
+  }
+]

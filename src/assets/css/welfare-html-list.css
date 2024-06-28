@@ -1,0 +1,39 @@
+.wf-table-container {
+  width: 100%;
+  margin-top: 16px;
+  border-spacing: 0;
+}
+.wf-space-top-16 {
+  margin-top: 16px;
+}
+.wf-td-id {
+  width: 2%;
+  height: 28px;
+  background-color: var(--neutral-color-nsp);
+  padding-left: 6px;
+  align-items: center;
+  justify-content: center;
+}
+
+.wf-td-description {
+  width: 30%;
+  background-color: var(--neutral-color-nf-0);
+  flex: 2;
+}
+
+.wf-td-link {
+  width: 83%;
+  background-color: var(--neutral-white);
+  flex: 3;
+  flex-direction: row;
+  display: flex;
+}
+
+.wf-td-space {
+  padding: 0 var(--d_12);
+}
+
+.wf-td-link__history {
+  color: var(--color-FB8);
+  margin-left: var(--d_24);
+}

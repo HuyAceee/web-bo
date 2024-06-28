@@ -1,0 +1,15 @@
+
+/* Swiper */
+.wf-swiper {
+  overflow: hidden;
+  position: relative;
+}
+.wf-swiper_body {
+  display: flex;
+  transition: transform 0.3s;
+}
+
+.wf-swiper_item {
+  width: 100%;
+  min-width: 100%;
+}

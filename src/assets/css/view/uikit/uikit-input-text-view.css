@@ -1,0 +1,39 @@
+.w-500 {
+  width: 500px;
+}
+/* 
+* custom width, height textbox input
+* --height-input => height input
+* --width-input => width input
+*/
+.wrap-input {
+  --height-input: 40px;
+  --width-input: var(--d_300);
+}
+.wf-space-x-65 > * + * {
+  margin-left: 65px;
+}
+.wf-space-x-77 > * + * {
+  margin-left: 77px;
+}
+.wf-space-y-5 > * + * {
+  margin-top: var(--d_5);
+}
+.wf-space-y-17 > * + * {
+  margin-top: var(--d_17);
+}
+.wf-space-y-51 > * + * {
+  margin-top: 51px;
+}
+.wf-space-y-61 > * + * {
+  margin-top: var(--d_61);
+}
+.wf-mt-31 {
+  margin-top: var(--d_31);
+}
+.wf-mt-81 {
+  margin-top: 81px;
+}
+.wrap-input-mt {
+  margin-top: -68px;
+}

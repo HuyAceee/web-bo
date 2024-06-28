@@ -1,0 +1,47 @@
+
+/* tab underline */
+.wf-tab-underline-header-end .wf-tab-underline{
+  justify-content: flex-end !important;
+}
+
+.wf-tab-underline {
+  height: 44px;
+}
+
+.wf-tab-underline-item {
+  list-style-type: none;
+}
+
+.wf-tab-underline-item a {
+  cursor: pointer;
+  padding: 10px 16px;
+  width: fit-content;
+  border-bottom: 2px solid transparent;
+}
+
+.wf-tab-underline-item a.wf-active {
+  border-bottom: 2px solid var(--neutral-color-n-33);
+  padding: 12px 20px;
+}
+
+.wf-tab-underline.wf-tab-underline-active-sm a.wf-active {
+  padding: 12px 16px;
+}
+
+.wf-tab-underline-item span {
+  color: var(--neutral-color-n-8-f);
+}
+
+.wf-tab-underline-item a.wf-active span {
+  color: var(--neutral-color-n-33);
+  font-weight: 600;
+}
+
+.wf-tab-underline-contents {
+  margin-top: var(--d_20);
+}
+
+/* specific file */
+.wf-dashboard-order-info .wf-tab-underline {
+  padding-right: 7px;
+}

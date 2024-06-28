@@ -1,0 +1,13 @@
+.wf-login-box-wrapper {
+  padding-top: 6.7px;
+  line-height: 24px;
+}
+
+.wf-gap-12 :deep .wf_authentication-box-wrapper--border-primary {
+  gap: 12px;
+  padding-bottom: 34px;
+}
+
+.wf-content-custom {
+  line-height: 21px;
+}

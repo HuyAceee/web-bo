@@ -1,0 +1,8 @@
+.wf-ex-categories-wrap {
+  max-height: 439px;
+  overflow-y: auto;
+}
+.wf-ex-categories:last-child {
+  height: 43px;
+  border-bottom: 0 !important;
+}

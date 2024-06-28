@@ -1,0 +1,32 @@
+.wf_editor-wrapper {
+  position: relative;
+  height: 100%;
+  z-index: 0;
+}
+
+.wf_editor-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  border-radius: var(--d_6);
+  background-color: var(--black-10);
+}
+
+.p-editor-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ql-snow .ql-picker.ql-header {
+  width: var(--d_120) !important;
+}
+
+/* Adding css to hide place holder when user focus */
+
+.ql-editor.ql-blank:focus:before{
+  color: transparent;
+}

@@ -1,0 +1,12 @@
+{
+  "companyCode": "0000",
+  "customer": "메가존",
+  "memberKey": "0000",
+  "nameEmployee": "홍길동",
+  "employmentStatus": "재직",
+  "accountStatus": "사용",
+  "gradeCode": "일반",
+  "welfarePointsAvailable": "000,000",
+  "welfarePointsScheduledToExpire": "000,000",
+  "memberRegistrationDate": "YYYY.MM.DD HH:MM:SS"
+}

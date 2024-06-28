@@ -1,0 +1,407 @@
+[
+  {
+    "title": "Product Management",
+    "visible": true,
+    "contents": [
+      {
+        "title": "Delivery Product > List",
+        "description": "./product/delivery/list",
+        "link": "/product/delivery-product/list",
+        "history": "1024",
+        "visible": false
+      },
+      {
+        "title": "Ticket Product > List (BO_C0201_010101)",
+        "description": "./product/ticket/list",
+        "link": "/product/ticket-product/list",
+        "history": "1221",
+        "visible": true
+      },
+      {
+        "title": "Delivery Product > Registration > Base Information",
+        "description": "./product/delivery/base-info",
+        "link": "/product/delivery-product/registration",
+        "history": "1024",
+        "visible": false
+      },
+      {
+        "title": "Delivery Product > Registration > Exhibition Info",
+        "description": "./product/delivery/exhibition-info",
+        "link": "/product/delivery-product/registration?tab=exhibition",
+        "history": "1025",
+        "visible": false
+      },
+      {
+        "title": "Delivery Product > Registration > Sales Info",
+        "description": "./product/delivery/sales-info",
+        "link": "/product/delivery-product/registration?tab=sales",
+        "history": "1025",
+        "visible": false
+      },
+      {
+        "title": "Delivery Product > Registration > Options Stock",
+        "description": "./product/delivery/options-stock",
+        "link": "/product/delivery-product/registration?tab=options-stock",
+        "history": "1025",
+        "visible": false
+      },
+      {
+        "title": "Delivery Product > Registration > Shipping Information",
+        "description": "./product/delivery/shipping",
+        "link": "/product/delivery-product/registration?tab=shipping",
+        "history": "1025",
+        "visible": false
+      },
+      {
+        "title": "Delivery Product > Edit > More Info (BO_C0202_030101)",
+        "description": "./product/delivery/more-info",
+        "link": "/product/ticket-product/registration?code=1000000000001&classification=01&tab=more-information",
+        "history": "1221",
+        "visible": false
+      },
+      {
+        "title": "Ticket Product > Edit > Base Information (BO_C0202_010101)",
+        "description": "./product/ticket/base-info",
+        "link": "/product/ticket-product/edit?code=1000000000001&classification=01&tab=base-information",
+        "history": "1221",
+        "visible": true
+      },
+      {
+        "title": "Ticket Product > Edit > Exhibition Info (BO_C0202_020101)",
+        "description": "./product/ticket/exhibition-info",
+        "link": "/product/ticket-product/registration?tab=exhibition&code=1000000000002&classification=01",
+        "history": "1221",
+        "visible": true
+      },
+      {
+        "title": "Ticket Product > Edit > Sales (BO_C0202_030101)",
+        "description": "./product/ticket/sales",
+        "link": "/product/ticket-product/edit?tab=sales&code=1000000000001&classification=01",
+        "history": "1221",
+        "visible": true
+      },
+      {
+        "title": "Ticket Product > Edit > Options Stock (BO_C0202_040101)",
+        "description": "./product/ticket/options-stock",
+        "link": "/product/ticket-product/registration?code=1000000000001&classification=01&tab=options-stock",
+        "history": "1221",
+        "visible": true
+      },
+      {
+        "title": "Ticket Product > Edit > Release Info (BO_C0202_050101)",
+        "description": "./product/ticket/release-information",
+        "link": "/product/ticket-product/registration?code=1000000000001&classification=01&tab=release-information",
+        "history": "1221",
+        "visible": true
+      },
+      {
+        "title": "Ticket Product > Edit > More Info (BO_C0202_060101/BO_C0607_010101_P)",
+        "description": "./product/ticket-product/registration/more-information",
+        "link": "/product/ticket-product/edit?tab=more-information&code=1000000000001&classification=01",
+        "history": "1229",
+        "visible": true
+      },
+      {
+        "title": "Ticket Product > Edit > Provision Notice (BO_C0202_070101)",
+        "description": "./product/ticket-product/provision-notice",
+        "link": "/product/ticket-product/edit?code=1000000000001&classification=01&tab=provision-notice",
+        "history": "1221",
+        "visible": true
+      },
+      {
+        "title": "Ticket Product > Registration > Base Information (BO_C0202_010101)",
+        "description": "./product/ticket/base-info",
+        "link": "/product/ticket-product/edit?tab=base-information",
+        "history": "1221",
+        "visible": true
+      },
+      {
+        "title": "Ticket Product > Registration > Exhibition Info (BO_C0202_020101)",
+        "description": "./product/ticket/exhibition-info",
+        "link": "/product/ticket-product/registration?tab=exhibition",
+        "history": "1221",
+        "visible": true
+      },
+      {
+        "title": "Ticket Product > Registration > Sales (BO_C0202_030101)",
+        "description": "./product/ticket/sales",
+        "link": "/product/ticket-product/edit?tab=sales",
+        "history": "1221",
+        "visible": true
+      },
+      {
+        "title": "Ticket Product > Registration > Options Stock (BO_C0202_040101)",
+        "description": "./product/ticket/options-stock",
+        "link": "/product/ticket-product/registration?tab=options-stock",
+        "history": "1221",
+        "visible": true
+      },
+      {
+        "title": "Ticket Product > Registration > Release Info (BO_C0202_050101)",
+        "description": "./product/ticket/release-information",
+        "link": "/product/ticket-product/registration?tab=release-information",
+        "history": "1221",
+        "visible": true
+      },
+      {
+        "title": "Ticket Product > Registration > More Info (BO_C0202_060101)",
+        "description": "./product/ticket-product/registration/more-information",
+        "link": "/product/ticket-product/edit?tab=more-information&code=1000000000001&classification=01",
+        "history": "1221",
+        "visible": true
+      },
+      {
+        "title": "Ticket Product > Registration > Provision Notice (BO_C0202_070101)",
+        "description": "./product/ticket-product/provision-notice",
+        "link": "/product/ticket-product/edit?tab=provision-notice",
+        "history": "1221",
+        "visible": true
+      },
+      {
+        "title": "Ticket Product > Registration > Provision Notice",
+        "description": "./product/ticket-product/registration/provision-notice",
+        "link": "/product/ticket-product/registration?tab=provision-notice",
+        "history": "1025",
+        "visible": false
+      },
+      {
+        "title": "Approval > Delivery Product > List",
+        "description": "./product/approval/delivery/list",
+        "link": "/product/approval/delivery-product-list",
+        "history": "1025",
+        "visible": false
+      },
+      {
+        "title": "Approval > Delivery Product > Edit > Base Information",
+        "description": "./product/ticket-product/edit?tab=base-information",
+        "link": "/product/ticket-product/edit?tab=base-information&code=1000000000002&classification=01",
+        "history": "1025",
+        "visible": false
+      },
+      {
+        "title": "Approval > Delivery Product > Edit > Sales Information",
+        "description": "./product/approval/delivery/sales-info",
+        "link": "/product/approval/delivery-product/edit/1000000000001?tab=sales",
+        "history": "1025",
+        "visible": false
+      },
+      {
+        "title": "Approval > Delivery Product > Edit > Options Stock",
+        "description": "./product/approval/delivery/options-stock",
+        "link": "/product/approval/delivery-product/edit/1000000000001?tab=options-stock",
+        "history": "1025",
+        "visible": false
+      },
+      {
+        "title": "Approval > Delivery Product > Edit > Shipping Information",
+        "description": "./product/approval/delivery/shipping",
+        "link": "/product/approval/delivery-product/edit/1000000000001?tab=shipping",
+        "history": "1025",
+        "visible": false
+      },
+      {
+        "title": "Approval > Delivery Product > Edit > Provision Notice",
+        "description": "./product/approval/delivery/provision-notice",
+        "link": "/product/approval/delivery-product/edit/01?tab=provision-notice",
+        "history": "1025",
+        "visible": false
+      },
+      {
+        "title": "Approval > Ticket Product > List (BO_C0303_010101)",
+        "description": "./product/approval/ticket/list",
+        "link": "/product/approval/ticket-product-list",
+        "history": "1812",
+        "visible": true
+      },
+      {
+        "title": "Approval > Ticket Product > Edit > Base Info (BO_C0304_010101)",
+        "description": ".//product/approval/ticket-product/base-information",
+        "link": "/product/approval/ticket-product/edit?tab=base-information&productRequestKey=13",
+        "history": "1812",
+        "visible": true
+      },
+      {
+        "title": "Approval > Delivery Product > Edit > More Information",
+        "description": "./product/approval/delivery/more-information",
+        "link": "/product/approval/delivery-product/edit/1000000000001?tab=more-information",
+        "history": "1025",
+        "visible": false
+      },
+      {
+        "title": "Approval > Ticket Product > Edit > Exhibition Info (BO_C0304_020101)",
+        "description": "./product/approval/ticket-product/exhibition",
+        "link": "/product/approval/ticket-product/edit?tab=exhibition&productRequestKey=13",
+        "history": "1812",
+        "visible": true
+      },
+      {
+        "title": "Approval > Ticket Product > Edit > Sales Information (BO_C0304_030101)",
+        "description": "./product/approval/ticket-product/sales",
+        "link": "/product/approval/ticket-product/edit?tab=sales&productRequestKey=13",
+        "history": "1812",
+        "visible": true
+      },
+      {
+        "title": "Approval > Ticket Product > Edit > Options Stock (BO_C0304_040101/BO_C0606_010101_P/BO_C0606_020101_P/BO_C0606_030101_P)",
+        "description": "./product/approval/ticket-product/options-stock",
+        "link": "/product/approval/ticket-product/edit?tab=options-stock&productRequestKey=13",
+        "history": "1229",
+        "visible": true
+      },
+      {
+        "title": "Approval > Ticket Product > Edit > Release Info (BO_C0304_050101)",
+        "description": "./product/approval/release-information",
+        "link": "/product/approval/ticket-product/edit?tab=release-information&productRequestKey=13",
+        "history": "1812",
+        "visible": true
+      },
+      {
+        "title": "Approval > Ticket Product > Edit > More Information (BO_C0304_060101)",
+        "description": "./product/approval/ticket/more-information",
+        "link": "/product/approval/ticket-product/edit?tab=more-information&productRequestKey=13",
+        "history": "1812",
+        "visible": true
+      },
+      {
+        "title": "Approval > Ticket Product > Edit > Provision Notice (BO_C0304_070101)",
+        "description": "./product/approval/ticket-product/provision-notice",
+        "link": "/product/approval/ticket-product/edit?tab=provision-notice&productRequestKey=13",
+        "history": "1812",
+        "visible": true
+      },
+      {
+        "title": "Promotion > List (BO_C0401_010101)",
+        "description": "./product/promotion/list",
+        "link": "/product/promotion/list",
+        "history": "1229",
+        "visible": true
+      },
+      {
+        "title": "Promotion > Registration (BO_C0401_020101)",
+        "description": "./product/promotion/registration",
+        "link": "/product/promotion/registration",
+        "history": "1229",
+        "visible": true
+      },
+      {
+        "title": "Trademark > List",
+        "description": "./product/brand/list",
+        "link": "/product/brand/list",
+        "history": "1025",
+        "visible": false
+      },
+      {
+        "title": "Trademark > Registration",
+        "description": "./product/brand/registration",
+        "link": "/product/brand/registration",
+        "history": "1025",
+        "visible": false
+      },
+      {
+        "title": "Popup > Registration Representative Image",
+        "description": "./product/ticket/more-information",
+        "link": "/product/ticket-product/registration?tab=more-information",
+        "history": "1025",
+        "visible": false
+      },
+      {
+        "title": "Popup > Registration b Video",
+        "description": "./product/ticket/more-information",
+        "link": "/product/ticket-product/registration?tab=more-information",
+        "history": "1025",
+        "visible": false
+      },
+      {
+        "title": "Popup > Registration Brand Image",
+        "description": "./product/brand/registration",
+        "link": "/product/brand/registration",
+        "history": "1025",
+        "visible": false
+      },
+      {
+        "title": "Popup > Product Search SELLER / CUSTOMER / SELLER INFO (BO_C0601_010101_P, BO_C0604_010101_P, BO_C0605_010101_P)",
+        "description": "/delivery/ticket-product-order-management/list-order-status",
+        "link": "/delivery/ticket-product-order-management/list-order-status",
+        "history": "1229",
+        "visible": true
+      },
+      {
+        "title": "Popup > Product Search MD (BO_C0602_010101_P)",
+        "description": "/product/approval/delivery-product",
+        "link": "/product/approval/delivery-product-list",
+        "history": "1229",
+        "visible": true
+      },
+      {
+        "title": "Popup > Reason Reject Product",
+        "description": "./product/popup/reason-reject",
+        "link": "/product/approval/delivery-product/edit/1000000000001",
+        "history": "1025",
+        "visible": false
+      },
+      {
+        "title": "Popup > Search MD",
+        "description": "./product/popup/search-md",
+        "link": "/product/delivery-product/list",
+        "history": "1025",
+        "visible": false
+      },
+      {
+        "title": "Popup > Search Seller",
+        "description": "./product/popup/search-seller",
+        "link": "/product/delivery-product/list",
+        "history": "1025",
+        "visible": false
+      },
+      {
+        "title": "Popup > Search Customer(BO_C0610_010101_P)",
+        "description": "./product/popup/search-customer",
+        "link": "/product/promotion/registration",
+        "history": "1229",
+        "visible": true
+      },
+      {
+        "title": "Popup > Reason Refusing Product(BO_C0609_010101_P)",
+        "description": "./product/approval/ticket-product",
+        "link": "/product/approval/ticket-product",
+        "history": "1229",
+        "visible": true
+      },
+      {
+        "title": "Popup > Search Brand",
+        "description": "./product/popup/search-brand",
+        "link": "/product/delivery-product/list",
+        "history": "1025",
+        "visible": false
+      },
+      {
+        "title": "Register Modal > Single Option",
+        "description": "./product/delivery/single-option",
+        "link": "/product/delivery-product/registration?tab=options-stock",
+        "history": "1025",
+        "visible": false
+      },
+      {
+        "title": "Register Modal > Multiple Option",
+        "description": "./product/delivery/multiple-option",
+        "link": "/product/delivery-product/registration?tab=options-stock",
+        "history": "1025",
+        "visible": false
+      },
+      {
+        "title": "Register Modal > Optional",
+        "description": "./product/delivery/optional",
+        "link": "/product/approval/ticket-product/edit/1000000000001?tab=options-stock",
+        "history": "1025",
+        "visible": false
+      },
+      {
+        "title": "Supplier Information Modal",
+        "description": "./product/ticket/supplier-information",
+        "link": "/product/ticket-product/list",
+        "history": "1025",
+        "visible": false
+      }
+    ]
+  }
+]

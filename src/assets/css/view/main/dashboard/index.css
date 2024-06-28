@@ -1,0 +1,57 @@
+@import './dashboard-parameter-overview.css';
+@import './dashboard-amount-order.css';
+@import './dashboard-amount-order-item.css';
+@import './dashboard-order-info.css';
+@import './dashboard-order-info-item.css';
+@import './dashboard-question-product.css';
+@import './dashboard-announcement.css';
+@import './dashboard-session-title.css';
+@import './dashboard-session-title-link.css';
+
+.wf-frame1000002102-wrap {
+  border: 1px solid var(--neutral-color-n-33);
+  overflow: hidden;
+}
+
+.wf-frame1000002102 {
+  margin-top: -1px;
+  margin-left: -1px;
+  background: var(--neutral-white);
+  width: 100%;
+}
+
+.wf-tab-title-time {
+  color: var(--neutral-white);
+  margin-right: 11px;
+}
+
+.wf-frame1000002068 {
+  width: 100%;
+  padding: 60px 50px;
+  padding-right: 49px;
+  padding-bottom: 58px;
+  border-bottom: 1px solid var(--neutral-color-ncc);
+}
+
+.wf-wrap-frame-94-96 {
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid var(--neutral-color-ncc);
+}
+
+.wf-frame1000002080 {
+  width: 100%;
+  padding: 60px 50px;
+  padding-right: 44px;
+  margin-top: 2px;
+  border-bottom: 1px solid var(--neutral-color-ncc);
+}
+
+.wf-frame1000002113 {
+  height: 44px;
+  min-height: 44px;
+}
+
+.wf-wrap-frame-94-96-second .wf-item-body {
+  margin-top: 28px;
+}

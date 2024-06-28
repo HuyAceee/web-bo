@@ -1,0 +1,9 @@
+@import './font.css';
+@import './uikit/index.css';
+@import 'primevue/resources/themes/lara-light-indigo/theme.css';
+@import './view/index.css';
+*,
+*::before,
+*::after {
+  font-family: 'Pretendard', sans-serif;
+}

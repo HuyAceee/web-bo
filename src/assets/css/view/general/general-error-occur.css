@@ -1,0 +1,24 @@
+.wf_prefix-wrapper :deep() .wf_authentication {
+  width: 509px;
+}
+
+.wf_prefix-wrapper :deep() .wf_authentication--slot {
+  padding: var(--d_60);
+}
+
+.wf_prefix-wrapper :deep() .wf_box-authentication-main {
+  margin-top: 0;
+}
+
+.wf_prefix-wrapper :deep() .wf_box-authentication-image--danger {
+  margin: var(--d_20) auto;
+}
+
+.wf_underline {
+  padding-bottom: var(--d_1);
+  text-decoration: underline;
+  -moz-text-decoration-color: var(--neutral-color-n-33);
+  text-decoration-color: var(--neutral-color-n-33);
+  text-decoration-thickness: var(--d_1);
+  text-underline-offset: var(--d_2);
+}

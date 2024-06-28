@@ -1,0 +1,38 @@
+.w-table-row-316 {
+    width: 316.66667px;
+}
+
+
+.w-180 {
+    width: 180px;
+}
+
+.w-150 {
+    width: 150px;
+    background-color: var(--sub-color-bg-gray);
+    padding: var(--d_12) var(--d_14);
+    font-weight: var(--w-600);
+}
+
+.w-table-row-200 {
+    width: 200px;
+}
+.w-table-row-199 {
+    width: 199px;
+}
+
+.tag-info-shipping {
+    display: inline-block;
+    padding: var(--d_3) var(--d_6);
+    border: var(--br_1) solid var(--neutral-color-ncc);
+    font-size: var(--body_04);
+    border-radius: var(--d_2);
+    line-height: 100%;
+    letter-spacing: -1px;
+}
+
+.tag-content-center {
+    display: flex;
+    align-items: center;
+}
+

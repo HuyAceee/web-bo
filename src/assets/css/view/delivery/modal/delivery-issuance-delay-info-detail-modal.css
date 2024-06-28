@@ -1,0 +1,29 @@
+.issuance-delay-info-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 1200px;
+  background: var(--neutral-white);
+}
+
+:deep(.guidance-notes) {
+  flex-direction: column;
+  align-items: unset;
+  padding: 13px 11px;
+  width: 383px;
+  flex: unset;
+  gap: 5px;
+}
+
+.wf-h-149 {
+  height: 149px;
+}
+
+.wf-mt--6 {
+  margin-top: var(--d_-6);
+}
+
+:deep(.p-datatable-tbody) {
+  max-height: calc(5 * 45px - 2px);
+  min-height: var(--d_42);
+}

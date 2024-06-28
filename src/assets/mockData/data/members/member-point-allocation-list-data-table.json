@@ -1,0 +1,60 @@
+{
+  "allocation": {
+    "no": 999,
+    "companyCode": "0000",
+    "customer": "㈜ 동그라미",
+    "pointAllocationCode": "0000",
+    "pointClassification": "선복 복지포인트",
+    "pointType": "명절포인트",
+    "pointAllocationName": "23년도 상반기 포인트",
+    "allottedWelfarePoints": "10,000",
+    "numberOfSubjects": 1,
+    "registrationStatus": "배정등록",
+    "baseYear": 2023,
+    "startUsing": "YYYY.MM.DD HH:MM",
+    "endOfUse": "YYYY.MM.DD HH:MM",
+    "registrationDate": "YYYY.MM.DD HH:MM",
+    "registrant": "회원명(회원코드)",
+    "adjustmentDate": "YYYY.MM.DD HH:MM",
+    "coordinator": "회원명(회원코드)"
+  },
+  "deduction": {
+    "no": 999,
+    "customerCode": "0000",
+    "customer": "㈜ 동그라미",
+    "pointDeductionCode": "0000",
+    "pointClassification": "선복 복지포인트",
+    "pointType": "명절포인트",
+    "pointDeductionName": "23년도 상반기 포인트",
+    "deductedPoint": "10,000",
+    "numberOfSubjects": 1,
+    "baseYear": 2023,
+    "startUsing": "YYYY.MM.DD HH:MM",
+    "registrant": "회원명(회원코드)"
+  },
+  "adjustment": {
+    "id": 0,
+    "no": 999,
+    "membershipCode": "0000",
+    "memberName": "김메가",
+    "idEmail": "megazone@mz.co.kr",
+    "phoneNumber": "010-1234-1234",
+    "customerCompanyCode": "0000",
+    "customer": "(주)기가존",
+    "lastAccessDate": "YYYY.MM.DD HH:MM:SS",
+    "delete": ""
+  },
+  "update": {
+    "membershipCode": "0000",
+    "memberName": "김메가",
+    "idEmail": "megazone@mz.co.kr",
+    "phoneNumber": "010-1234-1234",
+    "allocationPoints": "10,000",
+    "individualAdjustmentPoints": "",
+    "pointsAfterAdjustment": "10,000",
+    "adjustmentNotes": "",
+    "remarks": "퇴사 예정",
+    "companyCode": "0000",
+    "customer": "(주)기가존"
+  }
+}

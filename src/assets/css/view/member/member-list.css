@@ -1,0 +1,30 @@
+@import url('@/assets/css/view/common/form-data-table-list.css');
+
+.wf-select-label {
+  width: 100%;
+}
+
+:deep(.p-datatable-table tr:nth-child(1) th:last-child) {
+  min-width: 200px !important;
+}
+
+:deep(.p-datatable-table tr td:last-child) {
+  min-width: 194px !important;
+}
+
+:deep(.p-datatable-table tr:nth-child(2) th:last-child) {
+  border-right: 1px solid var(--neutral-color-ncc) !important;
+}
+
+:deep(.p-datatable-table tr) {
+  /** display: flex; */
+  /** display: table-row !important; */
+  color: var(--neutral-color-n-33);
+}
+
+:deep(.wf-form-group-small .wf-product-base-info-search .wf-text-box) {
+  width: var(--d_128) !important;
+}
+:deep(.wf_max-w-212) {
+  max-width: 212px;
+}

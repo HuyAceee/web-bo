@@ -1,0 +1,138 @@
+.wf-partner-detail-sub-tit {
+	border-bottom: 3px solid var(--sub-color-line-gray);
+	padding-bottom: var(--d_9);
+	margin-bottom: var(--d_20);
+	overflow: hidden;
+}
+
+.wf-partner-detail-section {
+	margin-top: var(--d_30)
+}
+
+.wf-partner-detail-address-tag {
+	border-radius: var(--d_2);
+	border: 1px solid var(--sub-color-line-gray);
+	display: flex;
+	padding: 4px 6px;
+	justify-content: center;
+	align-items: center;
+	gap: var(--d_10);
+	height: var(--d_20);
+	font-size: var(--d_12);
+	color: var(--neutral-color-n-52)
+}
+
+.wf-partner-detail-address {
+
+}
+
+.wf_py-13 {
+	padding-top: var(--d_13);
+	padding-bottom: var(--d_13);
+}
+
+.wf_py-14 {
+	padding-top: var(--d_14);
+	padding-bottom: var(--d_14);
+}
+
+.wf_col_gap-14 {
+	column-gap: var(--d_14);
+}
+
+.wf_col_gap-4 {
+	column-gap: var(--d_4);
+}
+
+.wf_col_gap-20 {
+	column-gap: var(--d_20);
+}
+
+.wf_row_gap-6 {
+	row-gap: var(--d_6)
+}
+
+.wf_row_gap-16 {
+	row-gap: var(--d_16)
+}
+
+.wf_row_gap-11 {
+	row-gap: var(--d_11)
+}
+
+.wf_row_gap-10 {
+	row-gap: var(--d_10)
+}
+
+.wf-warning-sub-text {
+	color: var(--sub-color-sub-01);
+	font-size: var(--fz_11);
+}
+
+.wf-partner-default-category-tag {
+	display: flex;
+	padding: 4px 6px;
+	justify-content: center;
+	align-items: center;
+	gap: var(--d_10);
+	border-radius: var(--d_2);
+	background: var(--color-D2E);
+	color: var(--sub-color-sub-02);
+	font-size: var(--fz_11);
+	font-style: normal;
+	font-weight: 400;
+	line-height: 100%; /* 12px */
+	letter-spacing: -1px;
+}
+
+.wf-no-select {
+	user-select: none;
+}
+
+.wf-site-menu--header {
+	border-bottom: 3px solid var(--sub-color-line-gray);
+    padding-top: 13px;
+    margin-bottom: 21px;
+	padding-bottom: 11px;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+}
+
+.wf-site-menu-depth-actions {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.wf-partner-modal-close-icon {
+	margin-top: -9px;
+	width: 28px;
+}
+
+.wf-partner-detail-introduction-content {
+	white-space: pre-wrap;
+	line-height: normal;
+	padding-top: var(--d_12);
+	padding-bottom: var(--d_12);
+}
+
+.wf-w-84 {
+	width: var(--d_84);
+}
+
+.wf-w-45 {
+	width: var(--d_45);
+}
+
+.wf-mt-31 {
+	margin-top: var(--d_31);
+}
+
+.wf-mt-15 {
+	margin-top: var(--d_15);
+}
+
+.wf-pb-10 {
+	padding-bottom: var(--d_10);
+}

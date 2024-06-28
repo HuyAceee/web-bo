@@ -1,0 +1,7 @@
+.wrap-input {
+  --height-input: 40px;
+  --width-input: var(--d_300);
+}
+.wf-space-x-37 > * + * {
+margin-left: var(--d_37); 
+}

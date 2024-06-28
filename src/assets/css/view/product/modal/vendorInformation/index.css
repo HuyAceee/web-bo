@@ -1,0 +1,88 @@
+.wf_body {
+  padding: var(--d_20);
+  width: 100%;
+}
+
+.wf_body > *:not(:last-child) {
+  margin-bottom: var(--d_20);
+}
+
+.wf_body__table {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.wf_body__table-item {
+  display: grid;
+  grid-template-columns: 150px 259px;
+  min-height: var(--d_44);
+  border-top: var(--d_1) solid var(--neutral-color-ncc);
+  border-right: var(--d_1) solid var(--neutral-color-ncc);
+}
+
+.wf_body__table-item:last-child {
+  border-bottom: var(--d_1) solid var(--neutral-color-ncc);
+  border-top-left-radius: var(--d_6);
+  border-bottom-right-radius: var(--d_6);
+  border-bottom-left-radius: var(--d_6);
+}
+
+.wf_body__table-item:first-child {
+  border-top-left-radius: var(--d_6);
+  border-top-right-radius: var(--d_6);
+}
+
+.wf_body__table-item--title {
+  background-color: var(--sub-color-bg-gray);
+  display: flex;
+  align-items: center;
+  padding: var(--d_14) var(--d_15) var(--d_14) var(--d_14);
+  border-right: var(--d_1) solid var(--neutral-color-ncc);
+  border-left: var(--d_1) solid var(--neutral-color-ncc);
+}
+
+.wf_body__table-item:last-child > .wf_body__table-item--title {
+  height: var(--d_42);
+  border-bottom-left-radius: var(--d_6);
+}
+
+.wf_body__table-item:first-child > .wf_body__table-item--title {
+  border-top-left-radius: var(--d_6);
+}
+
+.wf_body__table-item--content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--d_10) var(--d_12) var(--d_9) var(--d_12);
+  word-break: break-word;
+  row-gap: var(--d_10);
+}
+
+.wf_body__table-item:not(:first-child):not(:nth-child(2)) .wf_body__table-item--title {
+  padding-top: var(--d_14);
+}
+
+.wf_body__table-item--content.underline {
+  text-decoration: underline;
+  text-underline-offset: var(--d_2);
+  padding-top: var(--d_7);
+}
+
+.wf_w-120 {
+  width: var(--d_120);
+}
+
+.wf_body-action {
+  display: flex;
+  justify-content: center;
+}
+
+.wf-manager-info {
+  width: 450px;
+}
+
+.wf_md-button--cancel {
+  padding-top: var(--d_1);
+}

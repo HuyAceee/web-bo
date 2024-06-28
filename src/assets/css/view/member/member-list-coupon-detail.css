@@ -1,0 +1,48 @@
+:deep(.p-datatable-tbody) {
+  max-height: calc(10 * 44px - 1px);
+}
+
+@media (min-width: 1280px) {
+  #wf-content.wf-navigation .wf-member-list-coupon-detail:deep(.p-datatable-table tr th:not(:nth-child(1))),
+  #wf-content.wf-navigation .wf-member-list-coupon-detail :deep(.p-datatable-table tr td:not(:nth-child(1))) {
+    min-width: calc(calc(var(--d_screen) - var(--d_62) - var(--d_50) - var(--width_sidebar)) / 10) !important;
+    transition: 0.4s;
+  }
+
+  #wf-content.wf-navigation .wf-member-list-coupon-detail :deep(.p-datatable-table tr td:last-child) {
+    min-width: calc(calc(var(--d_screen) - var(--d_62) - var(--d_50) - var(--width_sidebar)) / 10 - 6px) !important;
+    transition: 0.4s;
+  }
+}
+
+@media (min-width: 1921px) {
+  .wf-member-list-coupon-detail :deep(.p-datatable-table tr th:not(:nth-child(1))),
+  .wf-member-list-coupon-detail :deep(.p-datatable-table tr td:not(:nth-child(1))) {
+    /* 62px = 30px*2 (padding-horizontal) + 1px*2 (border-horizontal) */
+    min-width: calc(calc(var(--d_screen) - var(--d_62) - var(--d_50) - var(--width_sidebar) - var(--width_navigation)) / 10) !important;
+    transition: 0.4s;
+  }
+
+  .wf-member-list-coupon-detail :deep(.p-datatable-table tr td:last-child) {
+    /* 62px = 30px*2 (padding-horizontal) + 1px*2 (border-horizontal) */
+    min-width: calc(calc(var(--d_screen) - var(--d_62) - var(--d_50) - var(--width_sidebar) - var(--width_navigation)) / 10 - 6px) !important;
+    transition: 0.4s;
+  }
+
+  #wf-content.wf-navigation .wf-member-list-coupon-detail:deep(.p-datatable-table tr th:not(:nth-child(1))),
+  #wf-content.wf-navigation .wf-member-list-coupon-detail :deep(.p-datatable-table tr td:not(:nth-child(1))) {
+    min-width: calc(calc(var(--d_screen) - var(--d_62) - var(--d_50) - var(--width_sidebar)) / 10) !important;
+    transition: 0.4s;
+  }
+
+  #wf-content.wf-navigation .wf-member-list-coupon-detail :deep(.p-datatable-table tr td:last-child) {
+    min-width: calc(calc(var(--d_screen) - var(--d_62) - var(--d_50) - var(--width_sidebar)) / 10 - 6px) !important;
+    transition: 0.4s;
+  }
+
+  .wf-member-list-coupon-detail :deep(.p-datatable-table tr th:last-child),
+  .wf-member-list-coupon-detail :deep(.p-datatable-table tr td:last-child) {
+    width: unset !important;
+    max-width: unset !important;
+  }
+}

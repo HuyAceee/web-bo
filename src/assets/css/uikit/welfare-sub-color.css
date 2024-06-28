@@ -1,0 +1,35 @@
+.wf_bg-f9 {
+    background-color: var(--sub-color-sub-01);
+}
+
+.wf_bg-40 {
+    background-color: var(--sub-color-sub-02);
+}
+
+.wf_bg-07 {
+    background-color: var(--sub-color-sub-03);
+}
+
+.wf_bg-ff {
+    background-color: var(--sub-color-star);
+}
+
+.wf_bg-f7 {
+    background-color: var(--sub-color-bg-gray);
+}
+
+.wf_bg-eb {
+    background-color: var(--sub-color-green);
+}
+
+.wf_bg-f4 {
+    background-color: var(--sub-color-blue);
+}
+
+.wf_bg-ba {
+    background-color: var(--sub-color-line-green);
+}
+
+.wf_bg-e3 {
+    background-color: var(--sub-color-line-gray);
+}

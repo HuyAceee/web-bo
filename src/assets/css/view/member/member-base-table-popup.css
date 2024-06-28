@@ -1,0 +1,90 @@
+.member-container-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 1200px;
+  background: var(--neutral-white);
+}
+.member-container-modal-content {
+  padding: var(--d_20);
+  width: 100%;
+}
+.member-container-modal-content--table {
+  width: 100%;
+  border-radius: var(--d_4);
+  border: 1px solid var(--neutral-color-n-8-f);
+}
+
+.member-container-modal-content--action {
+  justify-content: center;
+  align-items: center;
+  margin-top: var(--d_20);
+}
+.content-table-row-child > :deep(.wf-select-label) {
+  width: 180px;
+}
+.member-container-modal-content .content-table-row {
+  border-bottom: 1px solid var(--neutral-color-n-8-f);
+}
+.member-container-modal-content .content-table-row:last-child {
+  border-bottom: none;
+}
+.content-table-row-child {
+  width: 100%;
+}
+.content-table-row-child:last-child {
+  border-bottom: none;
+}
+.content-table-row-child--left {
+  border-right: 1px solid var(--neutral-color-n-8-f);
+}
+.content-table-row-child .child-label {
+  padding: var(--d_14) var(--d_15);
+  border-right: 1px solid var(--neutral-color-n-8-f);
+  background: var(--sub-color-bg-gray);
+  min-width: 150px;
+  width: 14%;
+}
+.content-table-row-child .child-content {
+  padding: var(--d_6) var(--d_12);
+  width: 100%;
+  min-height: 43px;
+  display: inline-flex;
+  align-items: center;
+}
+.member-container-modal-content--action .custom-button {
+  width: 120px;
+}
+.child-label > span {
+  color: var(--sub-color-sub-01);
+}
+.child-content.wf-body_03-reg {
+  color: var(--neutral-color-n-33);
+}
+.content-table-row-child .child-content :deep(.wf-text-box-control .p-inputtextarea.p-inputtext.textarea-sm) {
+  height: 200px;
+}
+.content-table-row-child .child-content :deep(.p-dropdown.wf-select-sm) {
+  width: 180px;
+}
+.content-table-row-child .child-content .wf-text-box {
+  width: 100%;
+}
+.content-table-row-child .child-content :deep(.wf-text-box-control .wf-text-box-message.left) {
+  color: var(--sub-color-sub-01);
+}
+
+.wf_table_title {
+  font-size: 16px;
+}
+
+:deep(.wf-select-label.wf-select-label-col) {
+  margin-left: 4px;
+}
+
+.member-container-modal-content :deep(.p-inputwrapper-filled) {
+  padding-left: var(--d_4);
+}
+:deep(.data-table-5-rows .p-datatable-tbody) {
+  max-height: calc(5 * 44px + 6px) !important;
+}

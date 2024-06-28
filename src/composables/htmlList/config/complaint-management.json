@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Complaint Management",
+    "visible": true,
+    "contents": [
+      {
+        "title": "Ticket Product > Ticket Product Complaint List (BO_F0201_010101)",
+        "description": "claim/ticket-product-complaint/ticket-product-complaint-list",
+        "link": "claim/ticket-product-complaint/ticket-product-complaint-list",
+        "history": "0104 0123"
+      },
+      {
+        "title": "Ticket Product > Order Cancellation List (BO_F0202_010101)",
+        "description": "claim/ticket-product-complaint/order-cancellation",
+        "link": "claim/ticket-product-complaint/order-cancellation",
+        "history": "0104 0122"
+      },
+      {
+        "title": "Ticket Product > Order Cancellation List > Popup Order Cancel Detail (BO_F0202_020101_P)",
+        "description": "claim/ticket-product-complaint/order-cancellation",
+        "link": "claim/ticket-product-complaint/order-cancellation",
+        "history": "0104 0123"
+      },
+      {
+        "title": "Order Cancel Popup (button 주문취소철회) (BO_F0301_010101_P)",
+        "description": "claim/ticket-product-complaint/order-cancellation",
+        "link": "claim/ticket-product-complaint/order-cancellation",
+        "history": "0104 0122"
+      },
+      {
+        "title": "Ticket Product > Order Cancellation List (BO_F0307_010101_P/BO_C0604_010101_P/BO_C0601_010101_P/BO_F0310_010101_P/BO_F0311_010101_P)",
+        "description": "claim/ticket-product-complaint/order-cancellation",
+        "link": "claim/ticket-product-complaint/order-cancellation",
+        "history": "0104"
+      }
+    ]
+  }
+]

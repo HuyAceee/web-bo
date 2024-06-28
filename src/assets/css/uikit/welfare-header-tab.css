@@ -1,0 +1,19 @@
+.wf-header-tab {
+    display: flex;
+    flex-direction: row;
+}
+
+.wf-header-tab__wrapper-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: var(--neutral-color-n-52);
+    height: var(--d_26);
+    width: var(--d_34);
+    min-width: var(--d_34);
+}
+
+.wf-header-tab__wrapper-icon.active {
+    background-color: var(--neutral-color-primary-0);
+}

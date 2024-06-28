@@ -1,0 +1,95 @@
+/* primevue checkbox */
+
+.p-checkbox {
+  display: flex;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: var(--d_24);
+  height: var(--d_24);
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+.p-checkbox.p-checkbox-sm {
+  width: var(--d_20);
+  height: var(--d_20);
+}
+
+.p-checkbox-box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  border: var(--d_1) solid var(--neutral-color-ncc);
+  background: var(--neutral-white);
+  /* empty_inner */
+  box-shadow: var(--inset_1);
+  cursor: pointer;
+  transition: none;
+}
+
+.p-checkbox-box.p-highlight,
+.p-checkbox-box.p-checkbox-box-checked {
+  border: var(--d_1) solid var(--neutral-color-n-33);
+}
+
+.p-checkbox-box.p-checkbox-disabled,
+.p-checkbox-box.p-checkbox-box-disabled {
+  border: var(--d_1) solid var(--neutral-color-ncc);
+  background: var(--neutral-color-nf-0);
+  cursor: default;
+}
+
+.p-checkbox-icon {
+  visibility: hidden;
+  transition-duration: 0ms;
+  width: var(--d_22);
+  height: var(--d_17);
+}
+
+.p-checkbox.p-checkbox-sm .p-checkbox-icon {
+  width: var(--d_18);
+  height: var(--d_14);
+}
+
+.p-checkbox-box.p-highlight .p-checkbox-icon,
+.p-checkbox-box.p-checkbox-box-checked .p-checkbox-icon {
+  visibility: visible;
+  stroke: var(--neutral-color-n-33);
+}
+
+.p-checkbox-box.p-checkbox-disabled .p-checkbox-icon,
+.p-checkbox-box.p-checkbox-box-disabled .p-checkbox-icon {
+  stroke: var(--neutral-color-n-8-f);
+}
+
+.p-checkbox-container {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+.p-checkbox-label {
+  padding-left: var(--d_8);
+  padding-right: var(--d_2);  /* prefix label width follow figma */
+  font-size: var(--body_01);
+  font-style: normal;
+  font-weight: var(--w-400);
+  line-height: 100%; /* 16px */
+  letter-spacing: var(--ls_-1);
+  cursor: pointer;
+  color: var(--neutral-color-n-33);
+}
+
+.p-checkbox-label.p-checkbox-label-sm {
+  font-size: var(--body_03);
+}
+
+.p-checkbox-label-disabled {
+  cursor: default;
+}

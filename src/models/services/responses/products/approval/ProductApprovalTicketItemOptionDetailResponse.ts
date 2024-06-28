@@ -1,0 +1,15 @@
+import {
+  ProductApprovalItemDetailIssuedInfoModel,
+  ProductApprovalTicketItemOptionDetailModel,
+  ProductApprovalTicketItemRequestDetailOptionInfoModel,
+  ProductApprovalTicketItemRequestDetailOptionPopupInfoModel
+} from '@/models/views'
+import { BaseModelResponse } from '../../BaseModelResponse'
+
+export interface ProductApprovalTicketItemOptionDetailResponse extends BaseModelResponse<ProductApprovalTicketItemRequestDetailOptionInfoModel> {}
+
+export interface ProductApprovalItemOptionDetailResponse extends BaseModelResponse<ProductApprovalTicketItemOptionDetailModel> {}
+
+export interface ProductApprovalItemDetailIssuedInfoResponse extends BaseModelResponse<ProductApprovalItemDetailIssuedInfoModel> {}
+
+export interface ProductApprovalTicketItemOptionDetailPopupResponse extends BaseModelResponse<ProductApprovalTicketItemRequestDetailOptionPopupInfoModel> {}

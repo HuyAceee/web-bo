@@ -1,0 +1,168 @@
+.wf-mt-4 {
+    margin-top: var(--d_4);
+}
+
+.wf-mt-_1 {
+    margin-bottom: -1px;
+}
+
+.wf_padding_table {
+    margin-top: 9px;
+    margin-left: -1px;
+}
+
+.wf-container-box {
+    border-width: 0 var(--br_1) var(--br_1);
+    border-style: solid;
+    border-color: var(--neutral-color-n-33);
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.wf-form-filter {
+    padding: 29px;
+    border-bottom: var(--br_1) solid var(--neutral-color-ncc);
+    display: flex;
+    flex-direction: column;
+}
+
+.wf-form-filter>*:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.wf-checkbox>.wf-checkbox-label {
+    padding-right: 0 !important;
+}
+
+.wf-group-w-46 {
+    width: 46px !important;
+}
+
+.wf_w-59 {
+    width: 59px !important;
+}
+
+.wf_w-53 {
+    width: 53px !important;
+}
+
+.wf_w-52 {
+    width: 52px !important;
+}
+
+.wf-group-w-61 {
+    width: 61px !important;
+}
+
+.wf_w-63 {
+    width: 63px !important;
+}
+
+.wf-group-w-65 {
+    width: 65px !important;
+}
+
+.wf_w-69 {
+    width: 69px !important;
+}
+
+.wf_w-58 {
+    width: 58px !important;
+}
+
+.wf_w-72 {
+    width: 72px !important;
+}
+
+.wf_w-74 {
+    width: 74px !important;
+}
+
+.wf_w-40 {
+    width: 40px !important;
+}
+
+.wf_w-85 {
+    width: 85px !important;
+}
+
+.wf_w-93 {
+    width: 93px;
+}
+
+.wf_w-110 {
+    width: 110px;
+}
+
+.wf-approval-group-btn .wf_md-button--neutral {
+    width: 55px !important;
+}
+
+.wf-group-h-44 {
+    height: 44px;
+}
+
+.wf-cursor-pointer {
+    cursor: pointer;
+}
+
+.wf-group-filter {
+    border-radius: 6px;
+    border: 1px solid var(--neutral-color-ncc);
+}
+
+.wf_br-b-0 {
+    border-bottom: 0 !important;
+}
+
+.wf_w-176 {
+    width: 176px !important;
+}
+
+.wf_w-188 {
+    width: 188px !important;
+}
+
+.wf_w-55 {
+    width: 55px !important;
+}
+
+.wf-br-l-1 {
+    border-left: 1px solid var(--neutral-color-ncc);
+}
+
+.wf_w-200 {
+    width: 200px !important;
+}
+
+.wf_w-76 {
+    width: 76px !important;
+}
+
+.wf_filter-title-checkbox {
+    padding: 14px 12px;
+}
+
+.wf-date_picker-value {
+    padding: 10px 11px !important;
+}
+
+.wf-table-wrapper {
+    padding: 30px 30px 0;
+}
+
+.wf_w-input--176 {
+    --width-input: 176px;
+}
+
+.wf_w-input--180 {
+    --width-input: 180px;
+}
+
+.wf--h-input-40 {
+    --height-input: 40px;
+}
+
+:deep(td.wf_w-52) {
+    min-width: 52px !important;
+}

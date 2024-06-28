@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Category Management",
+    "visible": true,
+    "contents": [
+      {
+        "title": "Category > Standard Management > Standard Management depth1 (BO_D0101_010101, BO_C0602_010101_P)",
+        "description": "category/standard-category/depth1-management",
+        "link": "category/standard-category/management?depth=1",
+        "history": "0112"
+      },
+      {
+        "title": "Category > Standard Management > Standard Management depth2 (BO_D0102_010101)",
+        "description": "category/standard-category/depth2-management",
+        "link": "category/standard-category/management?depth=2&id=SC2DE060",
+        "history": "0112"
+      },
+      {
+        "title": "Category > Standard Management > Standard Management depth3 (BO_D0103_010101, BO_D0103_020101_P, BO_D0103_020201_P)",
+        "description": "category/standard-category/depth3-management",
+        "link": "category/standard-category/management?depth=3&id=SC3DE127",
+        "history": "0112"
+      },
+      {
+        "title": "Category > Exhibition Management > Exhibition Management depth1 (BO_D0201_010101)",
+        "description": "category/exhibition-category/depth1-management",
+        "link": "category/exhibition-category/management?depth=1",
+        "history": "0112"
+      },
+      {
+        "title": "Category > Exhibition Management > Exhibition Management depth2 (BO_D0202_010101, BO_C0604_010101_P)",
+        "description": "category/exhibition-category/depth2-management",
+        "link": "category/exhibition-category/management?depth=2&displayCategoryId=DC2DE054&upperDisplayCategoryId=DC1DE017",
+        "history": "0112"
+      },
+      {
+        "title": "Category > Exhibition Management > Exhibition Management depth3 (BO_D0203_010101, BO_C0610_010101_P, BO_C0605_010101_P)",
+        "description": "category/exhibition-category/depth3-management",
+        "link": "category/exhibition-category/management?depth=3&displayCategoryId=DC3DE069&upperDisplayCategoryId=DC2DE048&displayCategoryExposureOrder=1",
+        "history": "0112"
+      }
+    ]
+  }
+]

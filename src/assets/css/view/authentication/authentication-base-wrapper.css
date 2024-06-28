@@ -1,0 +1,25 @@
+.wf_authentication-wrapper {
+  background: var(--bluegray-50);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: auto;
+}
+.wf_authentication {
+  width: 489px;
+}
+
+.wf_authentication--logo {
+  width: var(--d_160);
+}
+
+.wf_authentication--slot {
+  padding: var(--d_60) var(--d_50);
+  box-shadow: 0 var(--d_3) var(--d_6) 0 var(--black-16);
+  border-radius: var(--br_6);
+}
+
+.wf-router-link-icon {
+  height: 39.38px;
+}

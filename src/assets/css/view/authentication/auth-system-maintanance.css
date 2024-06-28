@@ -1,0 +1,24 @@
+.text-title-content-system-checking {
+    color: var(--sub-color-sub-02);
+    height: 41px;
+    line-height: 23px;
+    margin-top: -20px;
+    margin-left: -2px;
+    width: 360px;
+}
+
+.text-content-system-checking {
+    text-align: left;
+    height: 16px;
+    margin-left: 39px;
+    color:  var(--neutral-color-n-33);
+}
+
+.wf_authentication-wrapper :deep() .wf_authentication {
+    width: 520px;
+}
+
+.wf_authentication-wrapper :deep() .wf_authentication--slot {
+    padding: var(--d_60) var(--d_60);
+}
+

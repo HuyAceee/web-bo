@@ -1,0 +1,26 @@
+:deep(.p-datatable-tbody) {
+  max-height: calc(44px * 5 + 4px);
+}
+
+:deep(.wf_product-search-table .p-dropdown) {
+  box-sizing: border-box;
+  height: var(--d_30);
+  padding: var(--d_8) var(--d_11);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: var(--d_100);
+}
+
+:deep(.wf_product-search-table .p-dropdown-label),
+:deep(.wf_product-search-table .p-inputtext) {
+  font-size: var(--body_03);
+  font-style: normal;
+  font-weight: var(--w-500);
+  line-height: 100%; /* 0.875rem */
+  letter-spacing: var(--ls_-1);
+}
+
+.text-number-product-list {
+  color: var(--neutral-color-n-8-f)
+}

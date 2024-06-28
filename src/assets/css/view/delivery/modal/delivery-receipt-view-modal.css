@@ -1,0 +1,39 @@
+@import url('@/assets/css/view/product/modal/product-search-modal.css');
+
+.wf_delivery-modal-receipt {
+  width: 800px;
+  overflow: hidden;
+}
+
+:deep(.wf_form-group-justify-right) {
+  justify-content: flex-end;
+}
+.wf_config_table {
+  margin-bottom: -16px !important;
+  margin-top: -16px !important;
+}
+.wf_config_table_payment {
+  margin-bottom: -11px !important;
+  margin-top: -11px !important;
+}
+
+:deep(.p-datatable-table tr th) {
+  height: var(--d_44) !important;
+}
+
+:deep(.p-datatable-table tr:last-child td) {
+  height: var(--d_42) !important;
+}
+
+.modal-scroll {
+  overflow: auto;
+  max-height: 744px;
+}
+
+.wf_config_table_payment :deep(.wf-base-table-wrap > div) {
+  margin-bottom: var(--d_14);
+}
+
+.wf_config_table_payment :deep(.p-datatable-tbody) {
+  min-height: auto !important;
+}

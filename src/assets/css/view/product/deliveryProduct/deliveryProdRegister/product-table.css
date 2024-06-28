@@ -1,0 +1,164 @@
+.table-row-layout {
+  border-radius: var(--d_6);
+  border: var(--br_1) solid var(--neutral-color-ncc);
+  background: var(--neutral-white);
+  width: 100%;
+  border-spacing: 0;
+  overflow: hidden;
+}
+
+.table-row-layout tbody {
+  color: var(--neutral-color-n-33);
+  font-size: var(--body_02);
+  font-style: normal;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+
+.table-title-row-150 {
+  background-color: var(--sub-color-bg-gray);
+  width: 150px;
+  padding: var(--d_14) var(--d_14);
+  font-weight: var(--w-600);
+  color: var(--neutral-color-n-33);
+  font-size: var(--body_02);
+  font-style: normal;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+
+.table-row-layout tr:not(:last-child) th,
+.table-row-layout tr:not(:last-child) td {
+  border-bottom: var(--br_1) solid var(--neutral-color-ncc);
+}
+
+.table-row-layout tr th:not(:last-child),
+.table-row-layout tr td:not(:last-child) {
+  border-right: var(--br_1) solid var(--neutral-color-ncc);
+}
+
+.table-row-layout tr th,
+.table-row-layout tr td {
+  padding: var(--d_12) var(--d_11);
+}
+
+.table-row-layout tr th:nth-child(odd),
+.table-row-layout tr td:nth-child(odd) {
+  background-color: var(--sub-color-bg-gray);
+  width: 150px;
+  padding: var(--d_12) var(--d_14);
+  font-weight: var(--w-600);
+}
+
+.table-row-layout tr th:first-child,
+.table-row-layout tr td:first-child {
+  min-width: 150px !important;
+}
+
+.table-row-layout tr th:nth-child(even),
+.table-row-layout tr td:nth-child(even) {
+  font-size: var(--body_03);
+}
+
+.table-p-12 {
+  padding: var(--d_10) var(--d_10) !important;
+}
+
+.table-p-14 {
+  padding: var(--d_14) var(--d_10) !important;
+}
+
+.table-title-p-12 {
+  padding: var(--d_14) var(--d_14) !important;
+}
+
+.table-p-7 {
+  padding: var(--d_7) var(--d_10) !important;
+}
+
+.table-p-8 {
+  padding: var(--d_8) var(--d_10) !important;
+}
+
+.table-p-6 {
+  padding: var(--d_6) var(--d_11) !important;
+}
+
+.table-p-5 {
+  padding: var(--d_5) var(--d_11) !important;
+}
+
+.table-py-7 {
+  padding-top: var(--d_7) !important;
+  padding-bottom: var(--d_7) !important;
+}
+
+
+.table-content-center tbody th,
+.table-content-center tbody td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+
+.table-border-right {
+  border-right: var(--br_1) solid var(--neutral-color-ncc);
+}
+
+.table-row-padding-content {
+  padding: var(--d_14) var(--d_12);
+}
+
+.table-row-layout-p-14 tr th,
+.table-row-layout-p-14 tr td {
+  padding: var(--d_14) var(--d_11);
+}
+
+/* table col layout  */
+
+.table-col-layout {
+  border-radius: var(--d_6);
+  border: var(--br_1) solid var(--neutral-color-ncc);
+  background: var(--neutral-white);
+  width: 100%;
+  border-spacing: 0;
+  overflow: hidden;
+  font-weight: var(--w-400);
+  font-size: var(--body_03);
+  font-style: normal;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+
+.table-col-layout thead {
+  background-color: var(--sub-color-bg-gray);
+  font-weight: var(--w-600);
+  font-size: var(--body_02);
+  font-style: normal;
+  line-height: 100%;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+.table-col-layout tr th,
+.table-col-layout tr td {
+  padding: var(--d_14) var(--d_12);
+}
+
+.table-col-layout tbody tr:not(:last-child) th,
+.table-col-layout tbody tr:not(:last-child) td {
+  border-bottom: var(--br_1) solid var(--neutral-color-ncc);
+}
+
+.table-col-layout tr th:not(:first-child),
+.table-col-layout tr td:not(:first-child) {
+  border-left: var(--br_1) solid var(--neutral-color-ncc);
+}
+
+.table-col-layout tbody tr:first-child th,
+.table-col-layout tbody tr:first-child td {
+  border-top: var(--br_2) solid var(--neutral-color-n-33);
+}

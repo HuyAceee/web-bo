@@ -1,0 +1,13 @@
+{
+    "customerCompanyCode": "0000",
+    "customer": "메가존",
+    "contractStatus": "01",
+    "totalMembers": "1000",
+    "accountStatus": "01",
+    "pointAvailable": "1000",
+    "pointScheduledExpire": "100",
+    "tenure": "N,NNN 명",
+    "leave": "N,NNN 명",
+    "customerContractDate": "YYYY.MM.DD HH:MM:SS",
+    "customerContractEndDate": "YYYY.MM.DD HH:MM:SS"
+}

@@ -1,0 +1,43 @@
+@import url('@/assets/css/view/common/form-data-table-list.css');
+
+.wf-w-1-4 {
+  width: 25% !important;
+}
+
+.wf-w-1-2 {
+  width: 50% !important;
+}
+
+.wf_br-b {
+  border-bottom: 1px solid var(--neutral-color-ncc);
+}
+
+:deep(.wf_filter-body) {
+  /** padding: 0 12px; */
+  padding: 0 13px 0 11px;
+}
+
+:deep(.wf-approval-group-btn) {
+  margin-left: 7px;
+}
+
+.wf-pr-8 {
+  padding: 0 2px;
+}
+
+:deep(.p-datatable-table tr:nth-child(1) th:nth-child(2)) {
+  border-bottom: 2px solid var(--neutral-color-primary-0);
+}
+
+:deep(.p-datatable-table tr:nth-child(1) th:last-child) {
+  min-width: 156px !important;
+}
+
+:deep(.p-datatable-table tr td:last-child) {
+  min-width: 150px !important;
+}
+
+:deep(.p-datatable-table .wf-select-label-col) {
+ width:  100%;
+}
+

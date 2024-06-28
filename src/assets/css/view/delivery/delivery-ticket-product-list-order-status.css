@@ -1,0 +1,13 @@
+.wf-gap-x-20 {
+    gap: var(--d_20);
+}
+
+.wf-line {
+    height: var(--d_1);
+    width: 100%;
+    background-color: var(--neutral-color-ncc);
+}
+
+:deep(.wf-form-group-small .wf-product-base-info-search .wf-text-box) {
+    width: var(--d_128) !important;
+}

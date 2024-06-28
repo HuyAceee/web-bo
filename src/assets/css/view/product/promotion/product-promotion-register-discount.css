@@ -1,0 +1,63 @@
+.action-btn {
+  justify-content: center;
+}
+
+.alert-txt {
+  color: var(--sub-color-sub-01);
+  text-align: right;
+  font-size: var(--d_12);
+  font-style: normal;
+  font-weight: var(--w-400);
+  letter-spacing: var(--ls_-1);
+}
+
+.wrap-table {
+  box-sizing: border-box;
+  padding: var(--d_24);
+}
+
+#discount-amount :deep(.wf-input-with-icon ::-webkit-input-placeholder) {
+  text-align: right;
+}
+
+.wf-w-187 {
+  width: 187px;
+}
+
+.wf-product-menu-wrap {
+  padding: var(--d_30);
+  border: var(--d_1) solid var(--neutral-color-n-33);
+}
+
+/* :deep(.wf-input-with-icon) {
+  width: 180px;
+} */
+
+:deep(#seller .wf-input-with-icon) {
+  width: 128px;
+}
+
+.gap-4 {
+  gap: var(--gap-4);
+}
+
+:deep(.text-align-right input) {
+  text-align: right;
+  letter-spacing: -0.5px;
+}
+
+:deep(.product-table .p-datatable-thead tr th) {
+  width: var(--d_200);
+  min-width: var(--d_200);
+  max-width: var(--d_200);
+}
+:deep(.product-table .p-datatable-tbody tr td) {
+  width: var(--d_200);
+  min-width: var(--d_200);
+  max-width: var(--d_200);
+}
+
+:deep(.wf-modal-wrapper .wf-text-box .p-inputtext) {
+  background: var(--neutral-white);
+}
+

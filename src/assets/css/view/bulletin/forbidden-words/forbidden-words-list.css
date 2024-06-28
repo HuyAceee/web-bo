@@ -1,0 +1,29 @@
+#bb-review-table :deep() tr th:last-child,
+#bb-review-table :deep() tr td:last-child {
+    min-width: 220px;
+    max-width: 220px;
+}
+
+#bb-review-table :deep() tr th:first-child,
+#bb-review-table :deep() tr td:first-child,
+#bb-review-table :deep() tr th:nth-child(2),
+#bb-review-table :deep() tr td:nth-child(2) {
+    min-width: 50px !important;
+    max-width: 50px !important;
+}
+
+#bb-review-table :deep() tr th,
+#bb-review-table :deep() tr td {
+    min-width: 180px;
+    max-width: 180px;
+    justify-content: center;
+}
+
+
+
+#bb-review-table :deep() tr th:nth-child(4),
+#bb-review-table :deep() tr td:nth-child(4) {
+    min-width: 600px !important;
+    max-width: 600px !important;
+}
+

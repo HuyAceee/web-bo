@@ -1,0 +1,12 @@
+.coupon-promotion-inquiry-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 1200px;
+  background: var(--neutral-white);
+}
+
+:deep(.p-datatable-tbody) {
+  max-height: calc(5 * 42px - 2px);
+  min-height: var(--d_42);
+}

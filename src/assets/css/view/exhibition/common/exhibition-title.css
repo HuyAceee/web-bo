@@ -1,0 +1,12 @@
+.wf-exhibition-title {
+    padding-left: var(--d_2);
+    display: flex;
+    gap: var(--d_6);
+    align-items: start;
+    color: var(--neutral-color-n-33);
+    font-size: var(--d_16);
+    font-style: normal;
+    font-weight: var(--w-600);
+    line-height: 100%;
+    letter-spacing: var(--ls_1);
+}

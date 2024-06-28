@@ -1,0 +1,43 @@
+.wf_authentication-box-wrapper {
+  padding: 29px var(--d_20);
+  border-radius: var(--d_6);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.wf_authentication-box-wrapper--border-danger {
+  border: 1px solid var(--sub-color-sub-01);
+  background-color: var(--sub-color-bg-gray);
+  gap: var(--d_10);
+}
+
+.wf_authentication-box-wrapper--border-primary {
+  border: 1px solid var(--sub-color-sub-02);
+  background-color: var(--sub-color-blue);
+  gap: var(--d_18);
+}
+.wf_box-authentication-image--primary {
+  margin: var(--d_30) auto;
+}
+
+.wf_box-authentication-image--danger {
+  margin: var(--d_40) auto;
+}
+
+.wf_box-title--danger {
+  color: var(--sub-color-sub-01);
+}
+.wf_box-title--primary {
+  color: var(--sub-color-sub-02);
+}
+.wf_box-authentication-title {
+  font-size: var(--fz_18);
+}
+.wf_box-authentication-message {
+  line-height: unset;
+  font-weight: var(--w-400);
+  color: var(--neutral-color-n-33);
+}
+.wf_box-authentication-image {
+  text-align: center;
+}

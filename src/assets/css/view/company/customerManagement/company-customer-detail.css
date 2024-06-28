@@ -1,0 +1,37 @@
+@import url('@/assets/css/view/common/form-data-table-list.css');
+
+.wf_line {
+  height: var(--d_3);
+  width: 100%;
+  background: var(--sub-color-line-gray);
+  margin-bottom: var(--d_20);
+}
+.tag-content-center {
+  display: flex;
+  align-items: center;
+}
+
+.tag-info-shipping {
+  display: inline-block;
+  padding: var(--d_3) var(--d_6);
+  border: var(--br_1) solid var(--neutral-color-ncc);
+  font-size: var(--body_04);
+  border-radius: var(--d_2);
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+
+.address-customer-group-form {
+  height: var(--d_100);
+}
+
+.introduce-group-form {
+  min-height: var(--d_61);
+}
+
+.wf-group-container {
+  border-radius: 6px;
+  border: 1px solid var(--neutral-color-ncc);
+  overflow: hidden;
+  color: var(--neutral-color-n-33);
+}

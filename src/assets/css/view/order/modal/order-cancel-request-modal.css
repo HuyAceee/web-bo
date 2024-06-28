@@ -1,0 +1,51 @@
+.wf-order-cancel-request {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 1200px;
+  background: var(--neutral-white);
+}
+
+:deep(.wf-info-hint) {
+  padding: var(--d_15) var(--d_10) !important;
+}
+
+:deep(.wf-base-table-wrap) {
+  margin-top: var(--d_21) !important;
+}
+
+:deep(.wf-base-table-wrap > *:first-child) {
+  margin-bottom: var(--d_11) !important;
+}
+
+:deep(.p-datatable-wrapper) {
+  margin-bottom: 0 !important;
+}
+
+:deep(.wf-base-table-wrap) {
+  margin-top: 0 !important;
+}
+
+:deep(.wf-base-table-wrap > *:first-child) {
+  margin-bottom: var(--d_12) !important;
+}
+
+.wf-restoration-coupon-information :deep(.wf-base-table-wrap > *:first-child) {
+  margin-bottom: var(--d_10) !important;
+}
+
+:deep(.p-datatable-table tr td) {
+  height: var(--d_42) !important;
+}
+
+.wf-mt--3 {
+  margin-top: -3px;
+}
+
+.wf-order-cancel-request :deep(.wf-mt-21) {
+  margin-top: var(--d_21) !important;
+}
+
+:deep(.wf-base-table-wrap.wf-label-mb-10 > *:first-child) {
+  margin-bottom: var(--d_10) !important;
+}

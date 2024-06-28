@@ -1,0 +1,47 @@
+.wf-categories-popup-wrapper--content {
+  box-sizing: border-box;
+  background-color: var(--neutral-white);
+  margin: auto;
+  width: 450px;
+  z-index: var(--z-10);
+}
+
+:deep(.wf-categories-tree) {
+  padding-left: 0px;
+}
+.wf-popup-tree--wrapper {
+  padding: 20px 29px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+:deep(.wf-product-tree-menu) {
+  width: 392px;
+  padding: 15px 19px 20px 11px;
+  box-sizing: border-box;
+  max-height: 644px !important;
+}
+.wf-modal-table {
+  padding: 4px 20px;
+  border: none;
+  width: 100%;
+}
+:deep(.p-datatable-table tr:nth-child(1) th:last-child) {
+  min-width: 120px !important;
+}
+:deep(.p-datatable-table tr td:last-child) {
+  min-width: 110px !important;
+}
+
+:deep(.p-datatable-table tr th) {
+  height: 43px !important;
+}
+:deep(.p-datatable-table tr td) {
+  padding: 0 12px 0 11px;
+}
+.wf_m-w-600 {
+  min-width: 600px !important;
+}
+
+/* .categories-tree-popup {
+  overflow-x: hidden;
+} */

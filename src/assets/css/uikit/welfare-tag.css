@@ -1,0 +1,54 @@
+.wf-tag {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  padding: var(--d_11) var(--d_16);
+  border-radius: var(--br_100);
+  border: var(--d_1) solid var(--neutral-color-ncc);
+  background: var(--neutral-white);
+  transition: all 0.5s ease;
+  height: var(--d_37);
+}
+
+.wf-tag span {
+  font-size: var(--body_03);
+  font-style: normal;
+  font-weight: var(--w-400);
+  line-height: 100%; /* 14px */
+  letter-spacing: var(--ls_-1);
+  color: var(--neutral-color-n-33);
+  margin-right: var(--d_5);
+}
+
+.wf-tag:hover,
+.wf-tag:active {
+  border: var(--d_1) solid var(--neutral-color-n-33);
+  cursor: pointer;
+}
+
+.wf-tag:active svg, .wf-tag svg:hover {
+  stroke: var(--neutral-color-n-33);
+}
+
+.wf-tag.wf-tag-disable {
+  border: var(--d_1) solid var(--neutral-color-ncc);
+  background: var(--neutral-color-nf-0);
+  cursor: default;
+}
+
+.wf-tag.wf-tag-disable span {
+  color: var(--neutral-color-ncc);
+}
+
+.wf-tag.wf-tag-disable svg {
+  stroke: var(--neutral-color-ncc);
+}
+
+.wf-tag-hover.wf-tag {
+  border: var(--d_1) solid var(--neutral-color-n-33);
+}
+.wf-tag-active.wf-tag svg {
+  stroke: var(--neutral-color-n-33);
+}

@@ -1,0 +1,22 @@
+.wf_set-h-textarea :deep(.p-inputtextarea) {
+  height: var(--d_120);
+}
+
+.wf-partner-input-title-normal :deep(.wf-text-box-label-text) {
+  font-weight: var(--w-400);
+  white-space: nowrap;
+}
+
+.wf-partner-input-title-normal :deep(.p-inputtext) {
+  width: 180px;
+}
+
+.wf_btn-s-20 {
+  height: var(--d_20);
+  color: var(--neutral-color-n-52);
+  font-size: var(--d_12);
+  font-weight: 400;
+  line-height: var(--d_12);
+  word-wrap: break-word;
+  width: 53px;
+}

@@ -1,0 +1,129 @@
+.company-regis-main {
+  padding: var(--d_30);
+}
+.wf_flex-custom {
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.company-regis-main-title_w-full :deep(p) {
+  width: 100%;
+}
+
+.input_width_75 {
+  width: 100%;
+}
+
+.company-regis-main :deep(.height_30) {
+  height: var(--d_30) !important;
+}
+
+.company-regis-main :deep(.select_custom) {
+  padding: 0 var(--d_12);
+}
+.flex-col {
+  flex-direction: column;
+}
+.custom_py_7 {
+  padding-top: var(--d_7);
+  padding-bottom: var(--d_7);
+}
+.wf_m-w-150 {
+  min-width: 150px;
+}
+.wf_m-t-10 {
+  margin-top: var(--d_10);
+}
+.wf_py-14 {
+  padding-top: var(--d_12);
+  padding-bottom: var(--d_14);
+}
+.wf_set-h-textarea :deep(.p-inputtextarea) {
+  height: var(--d_120);
+}
+.wf_border-b-rm {
+  border-bottom: none;
+}
+.wf_btn-s-20{
+  height: var(--d_20);
+  color: var(--neutral-color-n-52);
+  font-size: var(--d_12);
+  font-weight: 400;
+  line-height: var(--d_12);
+  word-wrap: break-word;
+  width: 53px;
+}
+.wf_w-input-180 :deep(input){
+  width: var(--d_180);
+}
+.text-default{
+  color: var(--neutral-color-n-33);
+}
+.wf_w-fit-content{
+  width: fit-content;
+}
+.wf_custom-form-group-label :deep(.wf_filter-title){
+  align-items: start;
+}
+.wf-textarea-py{
+  padding-top: var(--d_14);
+  padding-bottom: var(--d_13);
+}
+.wf_ic-close-custom{
+  padding-right: var(--d_15);
+  padding-bottom: var(--d_10);
+}
+
+:deep(.tn-bb-widget-file-upload-widget-single-file) {
+  justify-content: space-between;
+  align-items: center;
+}
+
+:deep(.tn-bb-close-single-file_icon) {
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+:deep(.company--form-search-address .wf_trigger-modal-button) {
+  margin-left: 6px;
+}
+
+:deep(.company--form-search-address .wf_name-address) {
+  margin-top: 10px;
+}
+
+:deep(.company--form-search-address .wf_detail-address) {
+  margin-top: 10px;
+}
+
+:deep(.company--form-search-address .wf_street-address_container) {
+  margin-top: 10px;
+}
+:deep(.company--form-search-address .wf_street-address_container .wf_street-address_button) {
+  width: 53px !important;
+  border: 1px solid var(--bg-color-line_gray, #E3E6EA);
+  border-radius: 2px;
+}
+
+:deep(.tn-bb-widget-file-upload) {
+  border: 1px solid var(--neutral-color-n-33, #333);
+}
+:deep(.wf_company-upload-container button) {
+  width: 66px;
+}
+:deep(.wf-settlement_container .wf-text-box-label-text) {
+  width: 24px;
+  margin-right: 10px;
+}
+:deep(.tn-bb-widget-file-upload .tn-bb-close_icon) {
+  margin-right: -3px;
+}
+
+:deep(.wf_py-7) {
+  padding-top: var(--d_7);
+  padding-bottom: var(--d_7);
+}
+:deep(.wf_company-introduction .p-inputtextarea){
+  border: 1px solid var(--neutral-color-ncc, #CCC);
+}

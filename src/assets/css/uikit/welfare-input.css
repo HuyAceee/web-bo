@@ -1,0 +1,259 @@
+.wf_textbox--root {
+  width: 150vw;
+  height: auto;
+}
+
+.wf_textbox--container {
+  display: flex;
+  padding: var(--d_50);
+}
+
+/* Input Text Box */
+.wf-text-box {
+  display: flex;
+  flex-direction: column;
+  --width-input: 100%;
+}
+.wf-text-box .p-inputtext {
+  box-sizing: border-box;
+  border-radius: var(--br_4);
+  border: var(--br_1) solid var(--neutral-color-n-33);
+  background: var(--neutral-white);
+  color: var(--neutral-color-n-33);
+  font-size: var(--body_01);
+  outline: none;
+  box-shadow: none;
+  padding: var(--d_12);
+  position: relative;
+  height: var(--height-input);
+  width: var(--width-input);
+  line-height: 100%;
+  letter-spacing: var(--ls_-1);
+}
+
+.p-input-color {
+  border-radius: 0;
+  outline: none;
+}
+
+.wf-text-box-right {
+  text-align: right;
+  letter-spacing: -0.6px !important;
+}
+
+.wf-text-box .wf-text-box-control .p-inputtext:focus::placeholder,
+.wf-text-box .wf-text-box-control .p-inputtextarea.p-inputtext:focus::placeholder {
+  display: none;
+  opacity: 0;
+}
+
+.wf-text-box.wf-text-box-control .p-inputtext::placeholder,
+.wf-text-box.wf-text-box-control .p-inputtextarea.p-inputtext::placeholder {
+  color: var(--neutral-color-n-8-f);
+  font-size: var(--body_01);
+  font-style: normal;
+  font-weight: var(--w-400);
+  line-height: 100%;
+  letter-spacing: var(--ls_-1);
+}
+
+.wf-text-box .p-inputtext:placeholder-shown,
+.wf-text-box .p-inputtextarea.p-inputtext:placeholder-shown {
+  border-color: var(--neutral-color-ncc);
+}
+
+.wf-text-box:not(.wf-text-box-negative) .p-inputtext:hover:not(:disabled),
+.wf-text-box:not(.wf-text-box-negative) .p-inputtextarea.p-inputtext:hover:not(:disabled) {
+  border-color: var(--neutral-color-n-33);
+}
+
+.wf-text-box:not(.wf-text-box-negative) .p-inputtext:not(:disabled):focus,
+.wf-text-box:not(.wf-text-box-negative) .p-inputtextarea.p-inputtext:not(:disabled):focus {
+  border-color: var(--neutral-color-n-33);
+}
+
+.wf_input-validation.wf_input-validation--invalid:not(.wf-text-box-negative) .p-inputtext:not(:disabled),
+.wf_input-validation.wf_input-validation--invalid:not(.wf-text-box-negative) .p-inputtextarea.p-inputtext:not(:disabled) {
+  border-color: var(--sub-color-sub-01);
+}
+
+.wf-text-box.wf-text-box-negative .p-inputtext,
+.wf-text-box.wf-text-box-negative .p-inputtextarea.p-inputtext {
+  border-color: var(--sub-color-sub-01);
+}
+
+.wf-text-box.wf-text-box-active .p-inputtext,
+.wf-text-box.wf-text-box-active .p-inputtextarea.p-inputtext {
+  border-color: var(--neutral-color-n-33);
+}
+
+.wf-text-box-control .p-inputtext:disabled,
+.wf-text-box-control .p-inputtextarea.p-inputtext:disabled {
+  background-color: var(--neutral-color-nf-0);
+  cursor: default;
+}
+
+.wf-text-box-control .p-inputtext:disabled::placeholder {
+  color: var(--neutral-color-ncc);
+}
+
+.wf-text-box-control .p-inputtext.small {
+  font-size: var(--body_03);
+  padding: var(--d_8) var(--d_12);
+  --height-input: var(--d_30);
+}
+.wf-text-box-control .p-inputtextarea.p-inputtext.textarea-sm {
+  font-size: var(--body_03);
+}
+
+.wf-text-box-control .p-inputtext.small::placeholder {
+  font-size: var(--body_03);
+}
+
+::-webkit-input-placeholder {
+  color: var(--neutral-color-n-8-f);
+}
+
+.wf-text-box-control {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.wrap-input-padding-row-10-12 .p-inputtext,
+.wrap-input-padding-row-10-12 .p-inputtext.small {
+  padding: var(--d_10) var(--d_12);
+}
+
+.wf-text-box-message {
+  margin-top: var(--d_6);
+  padding-left: var(--d_12);
+  padding-right: var(--d_12);
+  text-align: left;
+  font-size: var(--body_04);
+  font-style: normal;
+  font-weight: var(--w-400);
+  line-height: 100%;
+  letter-spacing: var(--ls_-1);
+  color: var(--neutral-color-n-52);
+}
+
+.wf-text-box-control .wf-text-box-message.right {
+  margin-left: auto;
+  text-align: right;
+}
+
+.wf-text-box-control .wf-text-box-message.left {
+  text-align: left;
+}
+
+.wf-text-box-label {
+  display: flex;
+}
+
+.wf-text-box-label .wf-text-box-label-text {
+  color: var(--neutral-color-n-33);
+  font-size: var(--body_01);
+  font-style: normal;
+  font-weight: var(--w-600);
+  line-height: 100%; /* 16px */
+  letter-spacing: var(--ls_-1);
+}
+
+.wf-text-box-label .wf-text-box-label-text-sm,
+.wf-text-box-label .wf-text-box-label-textarea-sm {
+  font-size: var(--body_03);
+  color: var(--neutral-color-n-33);
+  font-style: normal;
+  font-weight: var(--w-600);
+  line-height: 100%; /* 16px */
+  letter-spacing: var(--ls_-1);
+}
+
+.wrap-input-padding-row-9-12 .p-inputtextarea.p-inputtext,
+.wrap-input-padding-row-9-12 .p-inputtextarea.p-inputtext.textarea-sm {
+  padding: var(--d_9) var(--d_12);
+  line-height: 128%;
+}
+
+.wf-text-box-label.wf-text-box-label-vertical {
+  flex-direction: column;
+}
+
+.wf-text-box-label.wf-text-box-label-vertical > *:not(:last-child) {
+  margin-bottom: var(--d_12);
+}
+
+.wf-text-box-label .wf-text-box-label-horizontal-group {
+  display: flex;
+}
+
+.wf-text-box-label .wf-text-box-label-horizontal-group .wf-text-box-label-text {
+  margin-right: var(--d_12);
+  margin-top: var(--d_12);
+}
+.wf-text-box-label .wf-text-box-label-horizontal-group .wf-text-box-label-text-sm {
+  margin-right: var(--d_12);
+  margin-top: var(--d_8);
+}
+
+.wf-text-box-label .wf-text-box-label-horizontal-group .wf-text-box-label-textarea-sm {
+  margin-right: var(--d_12);
+  margin-top: var(--d_12);
+}
+
+.wf-text-box-label .wf-text-box-label-horizontal-group.center {
+  align-items: center;
+}
+
+.wf-validation-box-blue .wf-text-box-message {
+  color: var(--sub-color-sub-02);
+}
+
+.wf-validation-box-red .wf-text-box-message {
+  color: var(--sub-color-sub-01);
+}
+
+.wf-validation-box-green .wf-text-box-message {
+  color: var(--sub-color-sub-03);
+}
+
+.wf-validation-box-n-33 .wf-text-box-message {
+  color: var(--neutral-color-n-33);
+}
+.wf-w-26 {
+  width: var(--d_26);
+}
+.wf-w-23 .wf-w-26 {
+  width: var(--d_23);
+}
+/* Input Text Box */
+/* Textarea Box */
+.wf-text-box .p-inputtextarea.p-inputtext {
+  box-sizing: border-box;
+  border-radius: var(--br_4);
+  border: var(--br_1) solid var(--neutral-color-n-33);
+  background: var(--neutral-white);
+  color: var(--neutral-color-n-33);
+  font-size: var(--body_01);
+  outline: none;
+  box-shadow: none;
+  resize: none;
+  padding: var(--d_10) var(--d_12);
+  position: relative;
+  height: var(--height-input);
+  width: var(--width-input);
+  line-height: 100%;
+  letter-spacing: var(--ls_-1);
+}
+/* Textarea Box */
+/* icon */
+.wf-input-with-icon {
+  position: relative;
+}
+.wf-icon-input-text {
+  position: absolute;
+  top: 50%;
+  right: 14px;
+  transform: translateY(-50%);
+}

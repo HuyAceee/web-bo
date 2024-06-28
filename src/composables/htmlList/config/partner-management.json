@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Partner Management",
+    "visible": true,
+    "contents": [
+      {
+        "title": "Partner Management List (BO_N0101_010101)",
+        "description": "./vendor/manager/list",
+        "link": "./vendor/manager/list",
+        "history": "0130"
+      },
+      {
+        "title": "Partner Management Company Information (BO_N0101_020102_P)",
+        "description": "./vendor/manager/detail",
+        "link": "./vendor/manager/detail?id=1",
+        "history": "0130"
+      },
+      {
+        "title": "Partner Management Registration (BO_N0103_010101)",
+        "description": "./vendor/manager/register-seller",
+        "link": "./vendor/manager/register-seller",
+        "history": "0130"
+      },
+      {
+        "title": "Contract Information (BO_N0101_020301)",
+        "description": "./vendor/manager/detail?tab=contract",
+        "link": "./vendor/manager/detail?tab=contract&id=1",
+        "history": "0130"
+      },
+      {
+        "title": "Seller Contract Detail (BO_N0101_020302)",
+        "description": "./vendor/manager/seller-contract-detail?sellerKey=1&contractKey=42",
+        "link": "./vendor/manager/seller-contract-detail?sellerKey=1&contractKey=42",
+        "history": "0130"
+      },
+      {
+        "title": "Seller Contract Period (BO_N0101_020303)",
+        "description": "./vendor/manager/seller-contract-period?sellerKey=1&contractKey=42",
+        "link": "./vendor/manager/seller-contract-period?sellerKey=1&contractKey=42",
+        "history": "0130"
+      }
+    ]
+  }
+]

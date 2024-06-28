@@ -1,0 +1,20 @@
+.wf_close--group {
+  width:  fit-content;
+  border-radius: 8px;
+  padding: 20px 20px 18px 20px ;
+  margin: 100px auto;
+  flex-direction: column;
+  display: flex;
+  gap: 21px;
+  border: 1px dashed var(--neutral-color-n-52);
+}
+.wf_close--group img{
+  width: var(--d_26);
+}
+.wf_close--btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 5.25px;
+}

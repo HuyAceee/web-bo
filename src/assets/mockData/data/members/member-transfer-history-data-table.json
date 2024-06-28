@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "no": 4,
+    "status": "조정등록(2)",
+    "decentralization": "마스터",
+    "manager": "회원명(회원코드)",
+    "updateAt": "YYYY.MM.DD HH:SS",
+    "reason": "퇴사 등"
+  },
+  {
+    "id": 2,
+    "no": 3,
+    "status": "조정등록(1)",
+    "decentralization": "마스터",
+    "manager": "회원명(회원코드)",
+    "updateAt": "YYYY.MM.DD HH:SS",
+    "reason": "육아휴직 등"
+  },
+  {
+    "id": 3,
+    "no": 2,
+    "status": "배정등록",
+    "decentralization": "마스터",
+    "manager": "회원명(회원코드)",
+    "updateAt": "YYYY.MM.DD HH:SS",
+    "reason": "-"
+  },
+  {
+    "id": 4,
+    "no": 1,
+    "status": "등록중",
+    "decentralization": "마스터",
+    "manager": "회원명(회원코드)",
+    "updateAt": "YYYY.MM.DD HH:SS",
+    "reason": "-"
+  }
+]

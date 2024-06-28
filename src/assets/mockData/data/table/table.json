@@ -1,0 +1,22 @@
+  {
+    "id": 0,
+    "code": "00000000",
+    "type": "상품명 품",
+    "name": "상품유형 상품유형",
+    "ppu": 11,
+    "batters": "전시여부 여부",
+    "topping": "노출채널 출채",
+    "width": 22,
+    "height": 33,
+    "url": "images/thumbnails/0001.jpg",
+    "color": "채널 채널 채널",
+    "startDate": "2022.08.20",
+    "endDate": "2022.08.22",
+    "patternName": "14Z95N-GP5NL",
+    "tax": "1.000.000.000đ",
+    "typeTax": "뷰티>미용>미용실",
+    "category": "뷰티>미용>미용실",
+    "reviewer": "mega1",
+    "status": "승인대기",
+    "isSelected": false
+  }

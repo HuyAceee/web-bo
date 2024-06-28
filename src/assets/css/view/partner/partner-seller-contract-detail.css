@@ -1,0 +1,27 @@
+.wf-partner-text-row-warning {
+    color: var(--sub-color-sub-01);
+    font-size: var(--body_04);
+    font-weight: var(--w-400);
+}
+.wf-partner-h-50{
+    height: 50px !important;
+}
+
+.wf-partner-represent{
+    background-color: var(--color-D2E);
+    padding: 4px 6px;
+    margin-right: 4px;
+}
+
+.wf_partner-sales-product{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+
+.wf-partner-file-ticket {
+    border-radius: 4px;
+    padding-top: 4px;
+    padding-bottom: 3px;
+    border: 1px solid var(--neutral-color-n-33);
+    padding-right: 4px;
+  }

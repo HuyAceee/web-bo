@@ -1,0 +1,19 @@
+.wf-regis-individual-address {
+  height: 164px;
+}
+
+.wf-administrator-notes {
+  height: var(--d_150);
+}
+
+.wf-administrator-notes-textarea {
+  --height-input: var(--d_120);
+  flex: 1;
+}
+:deep(.wf-input-small-padding .p-inputtext.p-component.p-inputtext-sm.small) {
+  padding-left: 6px;
+}
+
+.wf_h-82--i {
+  height: 82px !important;
+}

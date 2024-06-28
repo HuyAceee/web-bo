@@ -1,0 +1,12 @@
+{
+    "number": 1,
+    "welfarePointCode": "0000",
+    "point": "N,NNN",
+    "generation": "적립",
+    "detail": "사유가 노출 됩니다...",
+    "occurrenceDate": "YYYY.MM.DD HH:MM:SS",
+    "expirationPeriod": "YYYY.MM.SS HH:MM:SS ~ YYYY.MM.SS HH:MM:SS",
+    "orderCode": "-",
+    "manager": "관리자명(회원코드)",
+    "processingDate": "YYYY.MM.DD HH:MM:SS"
+}

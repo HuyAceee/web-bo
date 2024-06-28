@@ -1,0 +1,36 @@
+/* .p-datatable-table:has(.p-treetable-thead) {
+  border-width: 0;
+}
+
+.p-treetable-tbody {
+  max-height: calc(10 * 44px - 1px);
+}
+
+.p-datatable-table:has(.p-treetable-thead) tr td:first-child {
+  min-width: 140px !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  border-left: 0;
+  justify-content: left;
+}
+
+.p-datatable-table:has(.p-treetable-thead) tr th:first-child {
+  min-width: 140px !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  border-left: 0;
+}
+
+.p-datatable-table:has(.p-treetable-thead) tr td:last-child {
+  min-width: 140px !important;
+  width: unset !important;
+  max-width: unset !important;
+  border-right: 0;
+}
+
+.p-datatable-table:has(.p-treetable-thead) tr th:last-child {
+  min-width: 146px !important;
+  width: unset !important;
+  max-width: unset !important;
+  border-right: 0;
+} */

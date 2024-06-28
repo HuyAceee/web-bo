@@ -1,0 +1,39 @@
+.wf-administrator-notes {
+    height: var(--d_153);
+}
+
+.wf-administrator-notes-textarea {
+  --height-input: var(--d_120);
+  flex: 1;
+}
+
+.wf-boby :deep(.wf_tab-contents) {
+  margin-top: var(--d_16) !important;
+}
+
+.wf-inp-el-overlay_1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: var(--d_20);
+}
+.wf-inp-el-overlay_2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: var(--d_4);
+}
+
+:deep(.wf-body) {
+  margin-bottom: 0 !important;
+}
+
+:deep(.wf-footer) {
+  margin-top: var(--d_14) !important;
+}
+
+.wf-z-2 {
+  z-index: 2;
+}

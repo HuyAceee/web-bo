@@ -1,0 +1,26 @@
+.container {
+  border-width: 1px;
+  width: fit-content;
+  padding: 20px !important;
+}
+
+.row-wrap {
+  display: flex;
+  align-items: end;
+}
+
+.gap-y-14 > * + * {
+  margin-top: 14px;
+}
+
+.ml-36 {
+  margin-left: 36px;
+}
+
+.ml-93 {
+  margin-left: 93px;
+}
+
+.ml-40 {
+  margin-left: 40px;
+}

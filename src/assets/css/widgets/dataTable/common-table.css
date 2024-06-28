@@ -1,0 +1,7 @@
+.wf_common-table .wf_common-table-row:first-child .wf_common-table-1st-cell {
+  border-top-left-radius: 6px;
+}
+
+.wf_common-table .wf_common-table-row:last-child .wf_common-table-1st-cell {
+  border-bottom-left-radius: 6px;
+}

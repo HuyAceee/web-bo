@@ -1,0 +1,82 @@
+.modal-scroll {
+    overflow: auto;
+    max-height: calc(100vh - 150px);
+  }
+  .p-14 {
+    padding: var(--d_14);
+  }
+  .wf-ticket-product-payment  {
+    align-items: normal;
+  }
+  .w-full{
+    width: 100%;
+  }
+  .flex-1{
+    flex: 1;
+  }
+  .member-request-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 1200px;
+    background: var(--neutral-white);
+  }
+  .title-payment{
+    color: var(--neutral-color-n-33);
+    background-color: var(--sub-color-bg-gray);
+  }
+  .b-r-payment{
+    border-right: 1px solid var(--neutral-color-ncc);
+  }
+  .b-l-payment{
+    border-left: 1px solid var(--neutral-color-ncc);
+  }
+  .b-b-payment{
+    border-bottom: 1px solid var(--neutral-color-ncc);
+  }
+  .align-center{
+    text-align: center;
+  }
+  .m-h-44t{
+    min-height: var(--d_44);
+  }
+  :deep(.p-datatable-table tr td) {
+    height: var(--d_42);
+  }
+  .text-sub-02{
+    color: var(--sub-color-sub-02);
+  }
+  
+  :deep(.wf-member-request-modal-table .p-datatable-table tr:nth-child(2) th:last-child) {
+    border-right: 1px solid var(--neutral-color-ncc);
+  }
+  
+  :deep(.wf-member-request-modal-table .p-datatable-thead tr:first-child th:first-child),
+  :deep(.wf-member-request-modal-table .p-datatable-thead tr:first-child th:nth-child(2)) {
+    border-bottom: 1px solid var(--neutral-color-ncc);
+  }
+  
+  :deep(.p-datatable-table .wf-company-address) {
+    min-width: 120px !important;
+  }
+  :deep(.wf-ticket-product-payment > div:first-child) {
+    height: 86px !important;
+  }
+  :deep(.form-group-padding > .wf_filter-body) {
+    padding: 12px 12px !important;
+  }
+  :deep(.wf_filter-title) {
+    height: 100%;
+    padding: var(--d_14);
+    color: var(--neutral-color-n-33);
+    background-color: var(--sub-color-bg-gray);
+  
+    border-right: var(--br_1) solid var(--neutral-color-ncc);
+  }
+  :deep(.wf_p-0){
+    padding:  0;
+  }
+
+  .wf_product-search-table :deep(.wf-base-table-wrap>*:first-child) {
+    margin-bottom: var(--d_12) !important;
+  }

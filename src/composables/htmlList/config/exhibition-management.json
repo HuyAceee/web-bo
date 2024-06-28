@@ -1,0 +1,129 @@
+[
+  {
+    "title": "Exhibition Management",
+    "visible": true,
+    "contents": [
+      {
+        "title": "Exhibition>Template (BO_I0101_010101/BO_I0101_020101_P)",
+        "description": "exhibition/content/template",
+        "link": "./exhibition/content/template",
+        "history": "0109 0130"
+      },
+      {
+        "title": "Exhibition management>Exhibition content management>Seller special exhibition management>Coupon promotion inquiry (BO_I0103_020301_P)",
+        "description": "/exhibition/content/template?modal=coupon-promotion-inquiry",
+        "link": "/exhibition/content/template?modal=coupon-promotion-inquiry",
+        "history": "0111"
+      },
+      {
+        "title": "Exhibition management > Exhibition content management > Hall category management (BO_I0107_010101)",
+        "description": "/exhibition/content/hall-category",
+        "link": "/exhibition/content/hall-category",
+        "history": "0201"
+      },
+      {
+        "title": "Exhibition management>Exhibition content management>Special exhibition management(BO_I0103_010101/BO_C0602_010101_P)",
+        "description": "/exhibition/content/special",
+        "link": "/exhibition/content/special",
+        "history": "0116"
+      },
+      {
+        "title": "Exhibition management>Exhibition content management>Management of sales promotions(BO_I0104_010101/BO_C0601_010101_P)",
+        "description": "/exhibition/content/seller-special",
+        "link": "/exhibition/content/seller-special",
+        "history": "0116"
+      },
+      {
+        "title": "Exhibition management>Exhibition content management>Forced termination reason input pop-up (BO_H0101_030101_P)",
+        "description": "/exhibition/content/template?modal=cancel-coupon-reason",
+        "link": "/exhibition/content/template?modal=cancel-coupon-reason",
+        "history": "0115"
+      },
+      {
+        "title": "Video Registration Popup (BO_C0608_010101_P)",
+        "description": "/exhibition/content/template?modal=video-registration",
+        "link": "/exhibition/content/template?modal=video-registration",
+        "history": "0116"
+      },
+      {
+        "title": "Exhibition Management> Common Exhibition Management> Banner Management (BO_I0302_010101/BO_I0302_030101_P/BO_I0302_020101_P)",
+        "description": "/exhibition/common/banner-management",
+        "link": "/exhibition/common/banner-management",
+        "history": "0119"
+      },
+      {
+        "title": "Exhibition Management> Common Exhibition Management> Search keyword (BO_I0105_010101)",
+        "description": "/exhibition/common/search-keyword",
+        "link": "/exhibition/common/search-keyword",
+        "history": "0127 0130",
+        "visible": true
+      },
+      {
+        "title": "Exhibition Management> Common Exhibition Management> Search keyword Regis/Modify (BO_I0105_020101_P)",
+        "description": "/exhibition/common/search-keyword",
+        "link": "/exhibition/common/search-keyword",
+        "history": "0127 0130",
+        "visible": true
+      },
+      {
+        "title": "Exhibition Management> Common Exhibition Management> Search banner (BO_I0106_010101)",
+        "description": "/exhibition/common/search-banner",
+        "link": "/exhibition/common/search-banner",
+        "history": "0127 0130",
+        "visible": true
+      },
+      {
+        "title": "Exhibition Management> Common Exhibition Management> Search banner Regis/Modify (BO_I0106_020101_P)",
+        "description": "/exhibition/common/search-banner",
+        "link": "/exhibition/common/search-banner",
+        "history": "0127 0130",
+        "visible": true
+      },
+      {
+        "title": "Exhibition Management> Common Exhibition Management> Window popup (BO_I0301_010101)",
+        "description": "/exhibition/common/pop-up-window",
+        "link": "/exhibition/common/pop-up-window",
+        "history": "0123 0127",
+        "visible": true
+      },
+      {
+        "title": "Exhibition Management> Common Exhibition Management> Window popup Regis/Modify (BO_I0301_020101_P)",
+        "description": "/exhibition/common/pop-up-window",
+        "link": "/exhibition/common/pop-up-window",
+        "history": "0123",
+        "visible": false
+      },
+      {
+        "title": "Exhibition Management> Common Exhibition Management> banner management (BO_I0302_030101_P)",
+        "description": "/exhibition/common/banner-management",
+        "link": "/exhibition/common/banner-management",
+        "history": "0123",
+        "visible": false
+      },
+      {
+        "title": "Exhibition Management> Common Exhibition Management> Common GNB Management (BO_I0303_010101)",
+        "description": "exhibition/common/gnb",
+        "link": "exhibition/common/gnb",
+        "history": "0123"
+      },
+      {
+        "title": "Exhibition Management> Common Exhibition Management> Customer GNB Management (BO_I0304_010101)",
+        "description": "/exhibition/common/gnb-customer",
+        "link": "/exhibition/common/gnb-customer",
+        "history": "0123 0126"
+      },
+      {
+        "title": "Exhibition management> General exhibition management> Extended image management (BO_I0305_010101/BO_C0603_010101_P/BO_I0102_040401_P)",
+        "description": "/exhibition/common/extensible-image-management",
+        "link": "/exhibition/common/extensible-image-management",
+        "history": "0124"
+      },
+      {
+        "title": "Exhibition Management>General Exhibition Management>Flag Management (BO_I0306_010101/BO_I0306_020101_P)",
+        "description": "/exhibition/common/flag-management",
+        "link": "/exhibition/common/flag-management",
+        "history": "0124"
+      }
+    ]
+  }
+]

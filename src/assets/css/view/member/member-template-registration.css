@@ -1,0 +1,16 @@
+@import url('@/assets/css/view/common/form-data-table-list.css');
+
+.wf-select-label {
+  width: 100%;
+}
+
+.container-template-registration {
+    width: 800px;
+    max-height: 786px;
+}
+.template-registration-body {
+    padding: var(--d_20);
+}
+.w-117 {
+    width: 117px;
+}

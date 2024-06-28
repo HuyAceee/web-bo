@@ -1,0 +1,15 @@
+.back_btn-ctn {
+  width: 137px;
+  height: 140px;
+  margin: 200px auto;
+  padding: var(--d_20);
+  display: flex;
+  flex-flow: column;
+  gap: var(--d_19);
+  border-radius: var(--d_4);
+  border: 1px dashed var(--neutral-color-n-8-f);
+}
+.back_btn-ctn-item {
+  display: flex;
+  gap: var(--d_17);
+}

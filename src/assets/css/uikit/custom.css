@@ -1,0 +1,319 @@
+/* single_tab */
+
+.wf_single-tab:hover:not(:disabled):not(:active) {
+  background-color: var(--neutral-color-n-52);
+  font-weight: var(--w-700);
+  color: var(--neutral-color-n-33);
+}
+
+.wf_single-tab:disabled {
+  background-color: var(--neutral-color-n-8-f);
+  color: var(--neutral-color-ncc);
+}
+
+.wf_single-tab:active:not(:disabled) {
+  background-color: var(--neutral-color-primary-0);
+}
+
+.wf_group-container-tab {
+  width: 87.5rem;
+}
+
+.wf_group-container-tab__item.active {
+  background-color: var(--neutral-color-n-33);
+  color: var(--neutral-white);
+  font-weight: var(--w-700);
+}
+
+.wf_group-container-tab__item:disabled {
+  color: var(--neutral-color-ncc);
+  border-radius: 0;
+}
+
+.wf_group-container-tab__item:hover:not(:disabled):not(.active) {
+  font-weight: var(--w-700);
+  color: var(--neutral-color-n-33);
+}
+
+.wf_group-container-tab__item.hover {
+  font-weight: var(--w-700);
+  color: var(--neutral-color-n-33);
+}
+
+/* group_outline */
+
+.wf_group-outline-tab__item.active {
+  border: var(--d_1) solid var(--neutral-color-primary-0);
+  font-weight: var(--w-700);
+  border-top-left-radius: var(--br_5);
+  border-top-right-radius: var(--br_5);
+  border-bottom: 0;
+  color: var(--neutral-color-n-33);
+}
+
+.wf_group-outline-tab__item:disabled {
+  background-color: var(--neutral-color-nf-0);
+  color: var(--neutral-color-ncc);
+  border-radius: 0;
+}
+
+.wf_group-outline-tab__item:hover:not(:disabled) {
+  font-weight: var(--w-700);
+  color: var(--neutral-color-n-33);
+}
+
+.wf_group-outline-tab__item.hover {
+  font-weight: var(--w-700);
+  color: var(--neutral-color-n-33);
+}
+
+.wf_group-outline-tab__item:not(:disabled):not(.active) {
+  border-bottom: var(--d_1) solid var(--neutral-color-primary-0);
+}
+
+.wf_group-outline__tab-wrapper {
+  width: 87.5rem;
+  position: relative;
+  background-color: var(--neutral-white);
+}
+
+.wf_group-outline__tab-wrapper > .wf_group-outline-tab {
+  z-index: 2;
+  position: relative;
+  width: fit-content;
+}
+
+.wf_group-outline__tab-wrapper-line {
+  height: 0.0625rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: var(--neutral-color-primary-0);
+}
+
+/* Common */
+.wf-width-full {
+  width: 100% !important;
+}
+
+.wf-height-full {
+  height: 100% !important;
+}
+
+.wf-underline {
+  text-decoration: underline !important;
+}
+
+.wf-underline-offset-2 {
+  text-underline-offset: 2px;
+}
+
+.wf-underline-offset-3 {
+  text-underline-offset: var(--d_3);
+}
+
+#wf-modal {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.wf-wrap-modal-fixed {
+  visibility: hidden;
+  height: 0;
+}
+
+.wf-wrap-modal-fixed-center {
+  display: flex;
+  padding: 0 !important;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  min-width: 100vw;
+  overflow: auto;
+}
+
+.wf-wrap-modal-fixed.wf-active {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10000;
+  visibility: visible;
+  height: auto;
+}
+
+.wf-wrap-modal-fixed .wf-close {
+  cursor: pointer;
+}
+
+/* Border */
+.wf-rectangle-border {
+  height: 2px;
+  align-self: stretch;
+  background: var(--sub-color-line-gray);
+}
+
+.wf-div-border-center {
+  background: var(--sub-color-line-gray);
+  height: 1px;
+  align-self: stretch;
+}
+
+/* Title */
+.wf-dashboard-title {
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1 0 0;
+  align-self: stretch;
+  border-bottom: 3px solid var(--sub-color-line-gray);
+  background: var(--neutral-white);
+}
+
+.wf-frame1000002147-close {
+  height: 28px;
+  width: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wf-dashboard-title span {
+  color: var(--neutral-color-n-33);
+}
+
+/* Breakcrumb favorite */
+.wf-favorite-breakcrumb {
+  display: flex;
+  align-items: center;
+  color: var(--neutral-color-n-33);
+}
+
+.wf-favorite-breakcrumb span:hover {
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+
+.wf-favorite-breakcrumb-last {
+  color: var(--neutral-color-n-8-f);
+}
+
+/* Swiper */
+.wf-swiper {
+  overflow: hidden;
+}
+
+.wf-swiper_body {
+  display: flex;
+  transition: transform 0.3s;
+}
+
+.wf-swiper_item {
+  width: 100%;
+  min-width: 100%;
+}
+
+.wf-modal_check-length {
+  box-sizing: border-box;
+  width: 300px;
+  height: auto;
+  padding: 30px 20px;
+  background-color: var(--neutral-white);
+  border-radius: 4px;
+  border: var(--br_1) solid var(--line_main);
+  align-items: center;
+}
+
+.wf-modal_check-length > * {
+  text-align: center;
+}
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.wf-hover-underline:hover {
+  text-decoration: underline !important;
+}
+
+.wf-body_02-reg.modal {
+  line-height: 17px;
+  white-space: pre-line;
+}
+
+.wf_border-radius-2 {
+  border-radius: var(--br_2);
+}
+
+.wf_border-radius-4 {
+  border-radius: var(--br_4);
+}
+
+/* tooltip */
+.tooltip {
+  position: relative;
+  --height: var(--d_24);
+}
+
+.tooltip .tooltip-content {
+  visibility: hidden;
+  background-color: var(--neutral-white);
+  color: var(--neutral-color-n-33);
+  box-shadow: var(--inset_4);
+  text-align: left;
+  border-radius: var(--d_6);
+  padding: var(--d_14);
+  position: absolute;
+  z-index: 2;
+  top: calc(100% + var(--d_7));
+  left: 0;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.p-datatable-tbody tr:last-child .tooltip-content {
+  top: unset;
+  bottom: 10px;
+}
+
+.tooltip:hover .tooltip-content {
+  visibility: visible;
+  opacity: 1;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.font-inherit {
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  font-weight: inherit;
+}
+
+tr:has(td):has(label):has(div[aria-checked='true']) > td {
+  background-color: var(--sub-color-blue) !important;
+}
+.p-datatable.p-datatable-hoverable-rows .p-datatable-tbody > tr:not(.p-highlight):hover > td {
+  background: #f3f4f6 !important;
+  color: #4b5563 !important;
+}
+
+.p-overlaypanel .p-overlaypanel-content {
+  padding: var(--d_14);
+}
+
+.p-overlaypanel {
+  margin-top: var(--d_12);
+}

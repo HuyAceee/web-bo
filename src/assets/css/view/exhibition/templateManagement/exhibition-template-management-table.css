@@ -1,0 +1,8 @@
+:deep(.wf-display-template-management-table .p-datatable-table tr:nth-child(2) th:last-child) {
+  border-right: 1px solid var(--neutral-color-ncc);
+}
+
+:deep(.p-datatable-tbody) {
+  max-height: calc(5 * 45px - 2px);
+  min-height: var(--d_42);
+}

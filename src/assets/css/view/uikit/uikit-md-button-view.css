@@ -1,0 +1,43 @@
+
+.wf_container.wf_container--md-button {
+  max-width: 771px;
+  height: 531px;
+  width: 100%;
+  border-radius: var(--d_4);
+  padding: var(--d_19) 18.5px;
+}
+
+.wf_container--md-button .wf_container-row--one {
+  column-gap: var(--d_30);
+}
+.wf_container--md-button .wf_container-row--two {
+  column-gap: var(--d_32);
+}
+.wf_container-row--two .wf_container-col {
+  row-gap: var(--d_30);
+}
+.wf_container-row--one .wf_container-col {
+  row-gap: var(--d_20);
+}
+.wf_container-row--four .wf_container-col {
+  row-gap: var(--d_30);
+}
+.wf_container-row--three .wf_container-col {
+  row-gap: var(--d_20);
+}
+.wf_container--md-button .wf_container-row--three {
+  column-gap: var(--d_10);
+}
+.wf_container--md-button .wf_container-row--four {
+  column-gap: var(--d_14);
+}
+.wf_container--md-button .wf_container-grid {
+  column-gap: 61px;
+  row-gap: var(--d_32);
+}
+.wf_container-row--four .wf_container-col--ml.wf_container-col--ml{
+  margin-left: var(--d_6);
+}
+.wf_container-row--one .wf_container-col--ml.wf_container-col--ml{
+  margin-left: var(--d_4);
+}

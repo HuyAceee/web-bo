@@ -1,0 +1,5 @@
+import { BaseModelResponse, DataTablePaginationResponseModel } from "@/models/services/responses/BaseModelResponse"
+import { ExhibitionCommonSearchKeywordDetailModel, ExhibitionSearchKeywordModel } from "@/models/views/exhibition/exhibitionCommon/ExhibitionCommonSearchKeywordModel"
+
+export type ExhibitionSearchKeyWordGetListModelResponse = DataTablePaginationResponseModel<ExhibitionSearchKeywordModel>
+export type ExhibitionSearchKeyWordDetailModelResponse = BaseModelResponse<ExhibitionCommonSearchKeywordDetailModel>

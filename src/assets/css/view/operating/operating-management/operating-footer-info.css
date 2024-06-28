@@ -1,0 +1,46 @@
+.footer-container-form {
+  padding: 30px;
+  border: 1px solid var(--neutral-color-n-33);
+}
+.title-operating-info {
+  height: 31px;
+  border-bottom: 3px solid var(--sub-color-line-gray);
+}
+:deep(.form-group-padding > .wf_filter-body) {
+  padding: 3px 10px !important;
+  display: block !important;
+}
+:deep(.web-form-group-padding > .wf_filter-body) {
+  padding: 13px 11px 8px 11px;
+  display: block !important;
+}
+:deep(.company-form-group-padding > .wf_filter-body) {
+  padding: 0px 10px !important;
+  flex: 1 !important;
+}
+:deep(.form-image-space > .wf_filter-body) {
+  padding: 11px 10px;
+  display: block !important;
+}
+.border-bottom-none {
+  border-bottom: none !important;
+}
+.image-size {
+  width: 76px;
+  height: 76px;
+  border-radius: var(--br_6);
+  background-color: var(--neutral-white);
+  border: var(--d_1) solid var(--neutral-color-n-8-f);
+}
+.font-size-12 {
+  font-size: var(--body_04);
+}
+.image-wrapper {
+  position: relative;
+  width: fit-content;
+}
+.image-icon-remove {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}

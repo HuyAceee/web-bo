@@ -1,0 +1,59 @@
+:deep(.wf-member-point-usage-list .p-datatable-table tr:nth-child(1) th:last-child) {
+  min-width: 200px !important;
+}
+
+:deep(.wf-member-point-usage-list .p-datatable-table tr td:last-child) {
+  min-width: 194px !important;
+}
+
+:deep(.wf-member-customer-info-table .p-datatable-table tr:nth-child(1) th:last-child) {
+  min-width: 150px !important;
+}
+
+:deep(.wf-member-customer-info-table .p-datatable-table tr td:last-child) {
+  min-width: 144px !important;
+}
+
+:deep(.wf-member-customer-company-total-table .p-datatable-table tr:nth-child(2) th:last-child) {
+  border-right: 1px solid var(--neutral-color-ncc);
+}
+
+:deep(.wf-member-customer-info-table .p-datatable-table tr th:nth-child(7)) {
+  width: unset !important;
+}
+
+:deep(.wf-member-customer-info-table .p-datatable-table tr th:last-child) {
+  min-width: 150px !important;
+}
+
+:deep(.wf-member-customer-info-table .p-datatable-table tr:nth-child(2) th:last-child) {
+  border-right: 1px solid var(--neutral-color-ncc);
+}
+
+:deep(.wf-member-customer-company-total-table .p-datatable-table th:last-child) {
+  min-width: 64px !important;
+}
+
+:deep(.p-datatable-table td:last-child) {
+  min-width: 58px !important;
+}
+
+:deep(.p-datatable-table th.wf_m-w-custom-lastChild) {
+  max-width: 90px !important;
+  width: 90px !important;
+  min-width: 90px !important;
+}
+
+:deep(.wf-w-121 .wf_filter-title) {
+  width: 151px;
+}
+
+.wf-w-1014 {
+  width: 1040px;
+}
+:deep(.wf_filter-body.wf-custom-filter-date) {
+  padding: 0 12px 0 5px;
+}
+:deep(.custom-form-group-pd > .wf_filter-body) {
+  padding: 0 10px;
+}

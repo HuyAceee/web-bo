@@ -1,0 +1,51 @@
+.wf-register-site-menu--container {
+  display: flex;
+  flex-direction: row;
+  gap: var(--d_20);
+}
+
+.wf-register-site-menu {
+  flex: 1;
+}
+
+.wf-site-menu--header {
+  border-bottom: 3px solid var(--sub-color-line-gray);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.wf-site-menu-depth-actions {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.wf-operating-site-manage-table :deep() .p-datatable-wrapper {
+  border-radius: 6px;
+  border-width: var(--br_1);
+  border-style: solid;
+  border-color: var(--neutral-color-ncc);
+}
+
+.wf-operating-site-manage-table :deep() .p-datatable-table {
+  border-radius: 0px;
+  border: none;
+  overflow: auto;
+  display: unset;
+}
+
+.wf-operating-site-manage-table :deep() .p-datatable-tbody {
+  max-height: 219px;
+}
+
+.site-manager-cpntainer :deep() .wf_group-container-tab__item a {
+  cursor: pointer;
+}
+.site-manager-cpntainer :deep() .wf_group-container-tab__item--active {
+  border-radius: var(--d_5) !important;
+  background-color: var(--neutral-color-n-33) !important;
+}
+.site-manager-cpntainer :deep() .wf_group-container-tab__item--disabled {
+  background-color: transparent;
+}
